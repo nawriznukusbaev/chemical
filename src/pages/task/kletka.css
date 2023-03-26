@@ -1,0 +1,38 @@
+.kletka {
+    background: linear-gradient(
+            #bbb,
+            transparent 1px), linear-gradient( 90deg,
+            #bbb,
+            transparent 1px);
+    background-size: 20px 20px;
+    background-position: center center;
+}
+
+.text {
+    width: auto;
+    font-family: monospace;
+    font-size: 30px;
+    white-space: nowrap; /* не переносить текст на другую строку */
+    overflow: hidden; /* скрываем переполнение контентом */
+    animation: cursor 0.75s step-end infinite, printed_text 5s steps(auto);
+}
+
+@keyframes cursor {
+    0% {
+        border-color: white;
+    }
+
+    50% {
+        border-color: transparent;
+    }
+
+    100% {
+        border-color: white;
+    }
+}
+
+@keyframes printed_text {
+    from {
+        width: 0;
+    }
+}
