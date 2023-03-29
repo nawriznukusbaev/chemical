@@ -8,12 +8,12 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-
+import fon from './fon.jpg'
 
 
 export const Layout = () => {
     return (
-        <div className="w-full h-[100vh] bg-slate-300 flex flex-col justify-center items-center">
+        <div className="w-full h-[100vh] flex flex-col justify-center items-center" style={{ backgroundImage:`url(${fon})`, backgroundSize:'cover'}}>
             <h1 className="mb-[100px] text-3xl">Mektep oqiwshilarina ximiya pa'nin interaktiv usilda uyretiw</h1>
             <div className="flex flex-col">
 
