@@ -14,26 +14,33 @@ import fon from './fon.jpg'
 export const Layout = () => {
     return (
         <div className="w-full h-[100vh] flex flex-col justify-center items-center" style={{ backgroundImage:`url(${fon})`, backgroundSize:'cover'}}>
-            <h1 className="mb-[100px] text-3xl">Mektep oqiwshilarina ximiya pa'nin interaktiv usilda uyretiw</h1>
+            <h1 className="mb-[100px] text-3xl">Mektep oqıwshılarına ximiya pánin interaktiv usılda uyretiw</h1>
             <div className="flex flex-col">
 
             <div className="flex flex-row mb-[30px]">
                 <Link to={'/tasks1'}>
                     <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] m-[20px] flex justify-center items-center">
-                    <p className="text-center text-lg">Mol, birikpenin’ quramindag’i atom,  molekula sanin tabiw boyinsha esaplawlar</p>
+                    <p className="text-center text-lg">Mol, birikpeniń quramindaǵi atom,  molekula sanin tabiw boyinsha esaplawlar</p>
                     </div>
                 </Link>
-                <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] m-[20px] flex justify-center items-center">
+                <Link to={'/tasks2'}>
+                <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] m-[20px] flex flex-col justify-center items-center">
                     <p className="text-center text-lg">Ximiyaliq formula boyinsha esaplawlar</p>
+                    <p className="text-center text-lg">1.Massa úlesti tabiw</p>
                 </div>
+                </Link>
             </div>
             <div className="flex flex-row">
+                <Link to={'/tasks3'}>
                 <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] mx-[20px] flex justify-center items-center">
-                    <p className="text-center text-lg">Birikpenin’ formulasin keltirip shig’ariw</p>
+                    <p className="text-center text-lg">Birikpeniń formulasin keltirip shiǵariw</p>
                 </div>
+                </Link>
+                <Link to={'/tasks4'}>
                 <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] mx-[20px] flex justify-center items-center">
-                    <p className="text-center text-lg">Ximiyaliq ten’lemeler boyinsha esaplawlar</p>
+                    <p className="text-center text-lg">Ximiyaliq teńlemeler boyinsha esaplawlar</p>
                 </div>
+                </Link>
             </div>
             </div>
         </div>
