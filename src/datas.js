@@ -240,54 +240,7 @@ const datas2 = [
 
         ]
     },
-    {
-        id: 3,
-        task: 'Massasi  500gr  bolǵan  Mn<sub>2</sub>O<sub>3</sub>' +
-            ' hám MnO<sub>2</sub> oksid aralaspasinan' +
-            ' qansha massa marganec aliw múmkin. Aralaspadaǵi ' +
-            ' Mn<sub>2</sub>O<sub>3</sub> -80% hám MnO<sub>2</sub> -20%?',
-        desc: ['Berilgen:Mr(Mn<sub>2</sub>O<sub>3</sub>)=55*2+16*3=158gr/mol',
-            'Mr(MnO<sub>2</sub>)=55+16*2=87gr/mol',
-            'm(aralaspa)=500 gr',
-            'Mn<sub>2</sub>O<sub>3</sub> -80% hám MnO<sub>2</sub> -20%'
-        ],
-        solution: [
-            {
-                id: 1,
-                a: '500gr',
-                b: '100%',
-                c: 'x',
-                d: '80%',
-                x:'400gr Mn<sup>2</sup>O<sup>3</sup>'
-            },{
-                id: 2,
-                a: '158gr',
-                b: '110gr',
-                c: 'x',
-                d: '400 gr',
-                x:'287,5gr Mn'
-            },
-            {
-                id: 3,
-                a: '500gr',
-                b: '100%',
-                c: 'x',
-                d: '20%',
-                x:'100gr MnO<sup>2</sup>'
-            },
-            {id: 4,
-                a: '87gr',
-                b: '55gr',
-                c: '100gr',
-                d: 'x',
-                x:'63,21gr Mn'
-            },
-        ],
-        e:'287,5gr+63,21gr=?',
-        x:'342gr Mn alinadi'
-    },
-
-    {
+     {
         id:4,
         task:'  Element oksidi  EO<sub>3</sub>  quramǵa iye.' +
             '  Bul oksidtegi kislorodtiń massa úlesi 60% ' +
