@@ -118,8 +118,8 @@ export const TaskThreeTaskThree = () => {
 
     const navigate=useNavigate();
     const goBack=()=>navigate(-1);
-    return (<div className="container-xl bg-slate-100 flex flex w-[100%] h-[100vh] justify-center items-center">
-            <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-slate-100">Назад</button></div>
+     return (<div className="container-xl bg-slate-100 flex flex-col w-[100%] h-[100vh] justify-center items-center">
+                <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-sky-300">Назад</button></div>
                 <div className="flex flex-col items-center ">
                     <p className="italic text-purple-800 text-center text-2xl mb-[50px]">
                         {parse(`${data.task}`)}
