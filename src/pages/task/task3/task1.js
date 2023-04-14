@@ -2,7 +2,7 @@ import * as React from "react";
 import {useState} from "react";
 import {motion, AnimatePresence} from "framer-motion";
 import parse from "html-react-parser";
-import {useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import {datas3} from "../../../datas";
 export const TaskThreeTaskOne = () => {
     const {data_id} = useParams();
@@ -90,7 +90,10 @@ export const TaskThreeTaskOne = () => {
         setTimeout(handleVisibality9, 60000);
 
 
-        return (<div className="container-xl bg-slate-100 flex flex w-[100%] h-[100vh] justify-center items-center">
+    const navigate=useNavigate();
+    const goBack=()=>navigate(-1);
+    return (<div className="container-xl bg-slate-100 flex flex w-[100%] h-[100vh] justify-center items-center">
+            <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-slate-100">Назад</button></div>
                 <div className="flex flex-col items-center ">
                     <p className="italic text-purple-800 text-2xl text-center mb-[100px]">
                         {parse(`${data.task}`)}
