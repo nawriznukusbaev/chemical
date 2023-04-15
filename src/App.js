@@ -44,6 +44,9 @@ import {TaskFourTaskThree} from "./pages/task/task4/task3";
 import {TaskOneTaskFour} from "./pages/task/task1/task4";
 import {TaskTwoCategory4} from "./pages/task/task2/categroy4";
 import {TaskTwoTaskFour} from "./pages/task/task2/task4";
+import {TaskThreeCategory4} from "./pages/task/task3/categroy4";
+import {TaskFourCategory4} from "./pages/task/task4/categroy4";
+import {TaskThreeTaskFour} from "./pages/task/task3/task4";
 
 const App = () => {
     return (
@@ -75,16 +78,16 @@ const App = () => {
                         <Route path="/tasks3/category2/:data_id" element={<TaskThreeTaskTwo/>}/>
                         <Route path="/tasks3/category3" element={<TaskThreeCategory3/>}/>
                         <Route path="/tasks3/category3/:data_id" element={<TaskThreeTaskThree/>}/>
-                        <Route path="/tasks3/category4" element={<TaskOneCategory4/>}/>
-                        <Route path="/tasks3/category4/:data_id" element={<TaskOneCategory1/>}/>
+                        <Route path="/tasks3/category4" element={<TaskThreeCategory4/>}/>
+                        <Route path="/tasks3/category4/:data_id" element={<TaskThreeTaskFour/>}/>
                         <Route path="/tasks4/category1" element={<TaskFourCategory1/>}/>
                         <Route path="/tasks4/category1/:data_id" element={<TasFourTaskOne/>}/>
                         <Route path="/tasks4/category2" element={<TaskFourCategory2/>}/>
                         <Route path="/tasks4/category2/:data_id" element={<TaskFourTaskTwo/>}/>
                         <Route path="/tasks4/category3" element={<TaskFourCategory3/>}/>
                         <Route path="/tasks4/category3/:data_id" element={<TaskFourTaskThree/>}/>
-                        <Route path="/tasks4/category4" element={<TaskOneCategory4/>}/>
-                        <Route path="/tasks4/category4/:data_id" element={<TaskOneCategory1/>}/>
+                        <Route path="/tasks4/category4" element={<TaskFourCategory4/>}/>
+                        <Route path="/tasks4/category4/:data_id" element={<TaskFourCategory4/>}/>
             <Route path='*' element={<NotFound/>}/>
 
                     </Routes>

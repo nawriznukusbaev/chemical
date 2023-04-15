@@ -445,27 +445,7 @@ const datas4=[
         c:'80gr',
         d:'x',
         x:'17,92 l CO2'},
-    {id:3,
-        task:'Massasi 24gr bolǵan kómir janǵanda payda bolatuǵin CO<sub>2</sub>' +
-            ' niń kólemin tabiń?  Kómir 90% uglerodtan turadi.',
-        desc:['Berilgen: Ar(C)=12gr',
-            'm(C)=24 gr'
-        ],
-        solution:['24 gr kómirdiń 90%  taza ekenligin esapqa alip taza kómir massasi  esaplanadi'],
-        solutions1:{a:'24gr',
-            b:'100%',
-            c:'x',
-            d:'90%',
-            x:'21,6 gr taza C'},
-        solution2:['C+O<sub>2</sub>→CO<sub>2</sub>'],
-        solutions2:{
-            a:'12gr',
-            b:'22,4l',
-            c:'21,6gr',
-            d:'x',
-        },
-        x:'40,32 l CO<sub>2</sub>'
-    },
+
     {id:4,
         task:'Massasi 71gr bolǵan fosfor(V) oksidi suw menen reakciyaǵa kiriskende neshe gr kislota payda boladi?',
         desc:['Berilgen: m(P2O5)=71gr',
@@ -669,19 +649,7 @@ const datas5=[
 ]
 
 const datas6=[
-    {
-        id:1,
-        task:'Sulfat kislotasinda (H<sub>2</sub>SO<sub>4</sub>) kislorod neshe  % ti quraydi?',
-        desc:['Berilgen: Mr(H<sub>2</sub>SO<sub>4</sub>)=1*2+32+16*4=98gr/mol'],
-        solution:['Ar(O)=16gr','Sulfat kislotasiniń 1 molekulasinda 4 dana atomliq ' +
-        'kislorod bar ekenligin esapqa alamiz','16*4=64gr (O)'],
-        a:'98gr',
-        b:'100%',
-        c:'64gr',
-        d:'x',
-        x:'65,3%'
-    },
-    {
+       {
         id:2,
         task:'Nitrat kislotasinda (HNO<sub>3</sub>) azot neshe % ti quraydi?',
         desc:['Berilgen: Mr(HNO<sub>3</sub>)=1+14+16*3=63gr/mol',
@@ -1051,8 +1019,7 @@ const datas9 = [
 
 ];
 
-const datas10 =
-    [
+const datas10 =    [
         {
             id:1,
             task:'Magniy gidroksidinde (Mg(OH)<sub>2</sub>) kislorod neshe  % ti quraydi?',
@@ -1637,4 +1604,79 @@ const datas15 = [
     }
 ]
 
-export {datas1,datas2,datas3,datas4,datas5,datas6,datas7,datas8,datas9,datas10,datas11,datas15,datas12,datas13,datas14};
+
+ const datas16=[
+     {
+         id:1,
+         task:'Massasi 32 gr mis konc nitrat kislotasi menen reakciyaǵa kiriskende qansha massa duz payda boladi?',
+         desc:['Berilgen: Mr(Cu(NOM<sub>3</sub>)<sub>2</sub>)=64+2*(14+16*3)=156gr/mol',
+             'Ar(Cu)=64gr/mol',
+             'm(Cu)=32 gr'],
+         solution:['Cu+4HNO<sub>3</sub>→Cu(NO<sub>3</sub>)<sub>2</sub>+2NO<sub>2</sub>↑+2H<sub>2</sub>O'],
+         a:'64gr',
+         b:'156gr',
+         c:'32gr',
+         d:'x',
+         x:'78gr'
+
+     },
+     {
+         id:2,
+         task:'Massasi 142 gr ammoniy dixromati tarqalǵanda qansha litr azot payda boladi?',
+         desc:['Berilgen: Mr((NH<sub>4</sub>)2Cr<sub>2</sub>O7)=2*(14+1*4)+52*2+16*7=252gr/mol',
+             'm((NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>)=142gr',''],
+         solution:['(NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>→Cr<sub>2</sub>O<sub>3</sub>+N<sub>2</sub>+4H<sub>2</sub>O'],
+         a:'252gr',
+         b:'22,4 l',
+         c:'142gr',
+         d:'x',
+         x:'12,66 l'
+
+     },
+     {
+         id:3,
+         task:'Massasi 120 gr kaliy permanganati xlorid kislota menen tásirleskende qansha gr magniy xloridi payda boladi ?',
+         desc:['Berilgen: Mr(KMnO<sub>4</sub>) =39+55+16*4=158 gr/mol',
+             'Mr(MgCl<sub>2</sub>)=24+35,5*2=95gr',
+             'm(KMnO<sub>4</sub>)=120gr'],
+         solution:['KMnO<sub>4</sub>+HCl→KCl+MnCl<sub>2</sub>+Cl<sub>2</sub>↑+H<sub>2</sub>O'],
+         a:'158gr',
+         b:'95gr',
+         c:'120gr',
+         d:'x',
+         x:'72,15 gr'
+
+     },
+     {
+         id:4,
+         task:'Massasi 42,5gr natriy nitrati tarqalǵanda qansha gr natriy nitriti payda boladi?',
+         desc:['Berilgen:Mr(NaNO<sub>3</sub>) =23+14+16*3=85gr',
+             'Mr(NaNO<sub>3</sub>) =23+14+16*3=85gr/mol',
+             'Mr(NaNO<sub>2</sub>) =23+14+16*2=69gr/mol',
+                'm(NaNO<sub>3</sub>)=42,5gr'
+         ],
+         solution:['NaNO<sub>3</sub>→NaNO<sub>2</sub>+O<sub>2</sub>↑ '],
+         a:'85gr',
+         b:'69gr',
+         c:'42,5gr',
+         d:'x',
+         x:'34,5gr'
+
+     },
+     {
+         id:5,
+         task:'Massasi 7,5gr xlorid kislotasi natriy gidroksidi menen reakciyaǵa kiriskende qansha gr duz payda boladi?',
+         desc:['Berilgen: Mr(HCl)=1+35,5=36,5gr/mol',
+             'Mr(NaCl)=23+35,5=58,5gr/mol',
+             'm(HCl)=7,5 gr'],
+         solution:['HCl+NaOH→NaCl+H<sub>2</sub>O'],
+         a:'36,5gr',
+         b:'58,5gr',
+         c:'7,5gr',
+         d:'x',
+         x:'12gr.'
+
+     },
+ ]
+
+export {datas1,datas2,datas3,datas4,datas5,datas6,datas7,datas8,datas9,datas10,datas11,datas15,datas12,datas13,datas14,datas16};

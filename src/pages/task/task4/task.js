@@ -1,10 +1,13 @@
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import * as React from "react";
 import fon from "../../layout/fon.jpg";
 
 export const TaskListFour = ()=>{
+    const navigate=useNavigate();
+    const goBack=()=>navigate(-1);
     return (
         <div className="w-full h-[100vh] flex flex-col justify-center items-center" style={{ backgroundImage:`url(${fon})`, backgroundSize:'cover'}}>
+            <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-sky-300">Назад</button></div>
 
             <div className="flex flex-col">
                 <div className="flex flex-row mb-[30px]">
