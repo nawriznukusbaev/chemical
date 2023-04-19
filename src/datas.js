@@ -76,9 +76,9 @@
         x: `0,8 mol`
     }, {
         id: 8,
-        task: `Muǵdari 1,8 mol bolǵan bor oksidiniń (B<sup>2</sup>O<sup>3</sup>) massasin tabiń?`,
-        desc: `Berilgen:Mr(B<sup>2</sup>O<sup>3</sup>)=11*2+16*3=70gr/mol`,
-        desc2: 'n(B<sup>2</sup>O<sup>3</sup>)=1,8 mol',
+        task: `Muǵdari 1,8 mol bolǵan bor oksidiniń (B<sub>2</sub>O<sub>3</sub>) massasin tabiń?`,
+        desc: `Berilgen:Mr(B<sub>2</sub>O<sub>3</sub>)=11*2+16*3=70gr/mol`,
+        desc2: 'n(B<sub>2</sub>O<sub>3</sub>)=1,8 mol',
         a: `1mol`,
         b: `70gr`,
         c: `1,8mol`,
@@ -151,10 +151,10 @@
         desc: `Berilgen: Mr(CuO)=64+16=80gr/mol.`,
         desc2: 'm(CuO)=16gr',
         a: `80gr`,
-        b: `6,02*10<sub>23</sub>`,
+        b: `6,02*10<sup>23</sup>`,
         c: `16gr`,
         d: `x`,
-        x: `1,204*10<sub>23</sub>`
+        x: `1,204*10<sup>23</sup>`
     }, {
         id: 16,
         task: `Quraminda 12,04*10<sup>23</sup> dana kislorod atomlarin tutqan  temir (III)Fe<sub>2</sub>O<sub>3</sub> niń muǵdarin tabiń?. 1mol (Fe<sub>2</sub>O<sub>3</sub>)---3mol(O)`,
@@ -170,8 +170,8 @@
     }, {
         id: 17,
         task: `Quraminda 1,15*10<sup>23</sup> dana marganets atomlarin tutqan marganets(VII)oksidiniń(Mn<sub>2</sub>O<sub>7</sub>) muǵdarin tabiń?`,
-        desc: `1,15*10<sup>23</sup>  dana marganets atomlari sani`,
-        desc2: ``,
+        desc: `Berilgen:Mr(Mn<sub>2</sub>O<sub>7</sub>)=55*2+16*7=222gr/mol`,
+        desc2: `1,15*10<sup>23</sup>  dana marganets atomlari sani`,
         a: `1mol`,
         b: `6,02*10<sup>23</sup>`,
         c: `x`,
@@ -182,7 +182,7 @@
     }, {
         id: 18,
         task: `Quraminda 3,01*10<sup>23</sup>dana  molekula tutqan xrom (III) Cr<sub>2</sub>O<sub>3</sub> oksidiniń muǵdarin tabiń?`,
-        desc: `Berilgen: Mr(Cr<sub>2</sub>O<sub><3/sub>)=52*2+16*3=152gr/mol`,
+        desc: `Berilgen: Mr(Cr<sub>2</sub>O<sub>3</sub>)=52*2+16*3=152gr/mol`,
         desc2: `3,01*10<sup>23</sup>dana  molekula sani`,
         a: `1mol`,
         b: `6,02*10<sup>23</sup>`,
@@ -205,41 +205,7 @@ const datas2 = [
         d: 'x',
         x: '70%'
     },
-    {
-        id: 2,
-        task: 'MnO<sub>2</sub>, Mn<sub>2</sub>O<sub>7</sub>  degi Mn tiń massa  úlesin  tabiń?',
-        desc: ['Berilgen:',
-            '1.Mr(Fe<sub>2</sub>O<sub>3</sub>) =56*2+16*3=160gr/mol',
-            'Ar(Fe)=56 gr',
-            '2.Mr(FeO<sub>7</sub>)=55*2 +16*7=222gr/mol'
-        ],
-        solution: [
-            {
-                id: 1,
-                a: '87gr',
-                b: '100%',
-                c: '55gr',
-                d: 'x'
-            },
-            {
-                id: 2,
-                a: '222gr',
-                b: '100%',
-                c: '110gr',
-                d: 'x'
-            }
-        ],
-        x: [{
-            id: 1,
-            x: '63,2% Mn'
-        },
-            {
-                id: 2,
-                x: '49,54% Mn'
-            }
 
-        ]
-    },
      {
         id:4,
         task:'  Element oksidi  EO<sub>3</sub>  quramǵa iye.' +
@@ -300,7 +266,7 @@ const datas2 = [
         desc:[
             'Berilgen: Me<sub>2</sub>O<sub>3</sub>',
             'm(O)=76,5gr,  m(Me)=40,5gr',
-            'm(O)=m(Me2O3)-m(Me)'
+            'm(O)=m(Me<sub>2</sub>O<sub>3</sub>)-m(Me)'
         ],
         a:'40,5gr',
         b:'36gr',
@@ -389,7 +355,7 @@ const datas3 = [
         b:'60gr',
         c:'31gr',
         d:'x',
-        f:'x=40gr',
+        f:'40gr',
         solution2:[
             'Birikpedegi atomlardin’ qatnasin esaplaymiz',
             '31:31=1(P)*2=2 ,  40:16=2,5(O)*2=5',
@@ -444,11 +410,11 @@ const datas4=[
         b:'22,4 l',
         c:'80gr',
         d:'x',
-        x:'17,92 l CO2'},
+        x:'17,92 l CO<sub>2</sub>'},
 
     {id:4,
         task:'Massasi 71gr bolǵan fosfor(V) oksidi suw menen reakciyaǵa kiriskende neshe gr kislota payda boladi?',
-        desc:['Berilgen: m(P2O5)=71gr',
+        desc:['Berilgen: m(P<sub>2</sub>O<sub>5</sub>)=71gr',
             'Mr(P<sub>2</sub>O<sub>5</sub>)=31*2+16*5=142gr/mol',
             'Mr(H<sub>2</sub>SO<sub>4</sub>)=1*2+32+16*4=98'
         ],

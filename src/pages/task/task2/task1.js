@@ -140,7 +140,7 @@ export const TaskTwoTaskOne = () => {
                                 <div className="flex flex-row h-[180px] w-[580px] justify-center items-center rounded-lg bg-slate-200">
                                     <p className="text-3xl">1)</p>
                                     <div className="flex flex-col justify-center items-center">
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible && (<motion.div
@@ -148,14 +148,14 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.solution[0].a}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[0].a}`)}</p>
 
                                                     </motion.div>)
                                                 }
                                             </AnimatePresence>
 
                                         </div>
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible4 && (<motion.div
@@ -163,7 +163,7 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.solution[0].c}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[0].c}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -201,7 +201,7 @@ export const TaskTwoTaskOne = () => {
                                         </div>
                                     </div>
                                     <div className="flex flex-col justify-center items-center">
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible3 && (<motion.div
@@ -209,14 +209,14 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.solution[0].b}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[0].b}`)}</p>
 
                                                     </motion.div>)
                                                 }
                                             </AnimatePresence>
 
                                         </div>
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible6 && (<motion.div
@@ -224,7 +224,7 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.solution[0].d}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[0].d}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -236,7 +236,7 @@ export const TaskTwoTaskOne = () => {
                                 <div className="flex flex-row h-[180px] w-[580px] justify-center items-center rounded-lg bg-slate-200">
                                     <p className="text-3xl">2)</p>
                                     <div className="flex flex-col justify-center items-center">
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible7 && (<motion.div
@@ -244,14 +244,14 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.solution[1].a}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[1].a}`)}</p>
 
                                                     </motion.div>)
                                                 }
                                             </AnimatePresence>
 
                                         </div>
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible12 && (<motion.div
@@ -259,7 +259,7 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.solution[1].c}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[1].c}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -297,7 +297,7 @@ export const TaskTwoTaskOne = () => {
                                         </div>
                                     </div>
                                     <div className="flex flex-col justify-center items-center">
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible11 && (<motion.div
@@ -305,14 +305,14 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.solution[1].b}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[1].b}`)}</p>
 
                                                     </motion.div>)
                                                 }
                                             </AnimatePresence>
 
                                         </div>
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible14 && (<motion.div
@@ -320,7 +320,7 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.solution[1].d}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[1].d}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -329,7 +329,7 @@ export const TaskTwoTaskOne = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="h-[50px] w-[80px] flex justify-center items-center">
+                                <div className="h-[50px] w-[100px] flex justify-center items-center">
                                     <AnimatePresence>
                                         {
                                             isVisible15&& (<motion.div
@@ -556,7 +556,7 @@ export const TaskTwoTaskOne = () => {
                                     <div className="flex flex-row justify-center items-center">
                                         <div className="flex flex-row h-[180px] w-[240] justify-center items-center rounded-lg bg-slate-200">
                                             <div className="flex flex-col justify-center items-center">
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible && (<motion.div
@@ -564,14 +564,14 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[0].a}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[0].a}`)}</p>
 
                                                             </motion.div>)
                                                         }
                                                     </AnimatePresence>
 
                                                 </div>
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible4 && (<motion.div
@@ -579,7 +579,7 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[0].c}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[0].c}`)}</p>
 
                                                             </motion.div>)
                                                         }
@@ -617,7 +617,7 @@ export const TaskTwoTaskOne = () => {
                                                 </div>
                                             </div>
                                             <div className="flex flex-col justify-center items-center">
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible3 && (<motion.div
@@ -625,14 +625,14 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[0].b}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[0].b}`)}</p>
 
                                                             </motion.div>)
                                                         }
                                                     </AnimatePresence>
 
                                                 </div>
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible6 && (<motion.div
@@ -640,7 +640,7 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 3}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[0].d}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[0].d}`)}</p>
 
                                                             </motion.div>)
                                                         }
@@ -651,7 +651,7 @@ export const TaskTwoTaskOne = () => {
                                         </div>
                                         <div className="flex flex-row h-[180px] w-[240px] justify-center items-center rounded-lg bg-slate-200">
                                             <div className="flex flex-col justify-center items-center">
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible10 && (<motion.div
@@ -659,14 +659,14 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[1].a}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[1].a}`)}</p>
 
                                                             </motion.div>)
                                                         }
                                                     </AnimatePresence>
 
                                                 </div>
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible13 && (<motion.div
@@ -674,7 +674,7 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[1].c}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[1].c}`)}</p>
 
                                                             </motion.div>)
                                                         }
@@ -712,7 +712,7 @@ export const TaskTwoTaskOne = () => {
                                                 </div>
                                             </div>
                                             <div className="flex flex-col justify-center items-center">
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible12 && (<motion.div
@@ -720,14 +720,14 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[1].b}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[1].b}`)}</p>
 
                                                             </motion.div>)
                                                         }
                                                     </AnimatePresence>
 
                                                 </div>
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible15 && (<motion.div
@@ -735,7 +735,7 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 3}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[1].d}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[1].d}`)}</p>
 
                                                             </motion.div>)
                                                         }
@@ -748,7 +748,7 @@ export const TaskTwoTaskOne = () => {
                                     <div className="flex flex-row justify-center items-center">
                                         <div className="flex flex-row h-[180px] w-[240px] justify-center items-center rounded-lg bg-slate-200">
                                             <div className="flex flex-col justify-center items-center">
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible17 && (<motion.div
@@ -756,14 +756,14 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[2].a}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[2].a}`)}</p>
 
                                                             </motion.div>)
                                                         }
                                                     </AnimatePresence>
 
                                                 </div>
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible20 && (<motion.div
@@ -771,7 +771,7 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[2].c}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[2].c}`)}</p>
 
                                                             </motion.div>)
                                                         }
@@ -809,7 +809,7 @@ export const TaskTwoTaskOne = () => {
                                                 </div>
                                             </div>
                                             <div className="flex flex-col justify-center items-center">
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible19 && (<motion.div
@@ -817,14 +817,14 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[2].b}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[2].b}`)}</p>
 
                                                             </motion.div>)
                                                         }
                                                     </AnimatePresence>
 
                                                 </div>
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible22 && (<motion.div
@@ -832,7 +832,7 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 3}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[2].d}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[2].d}`)}</p>
 
                                                             </motion.div>)
                                                         }
@@ -843,7 +843,7 @@ export const TaskTwoTaskOne = () => {
                                         </div>
                                         <div className="flex flex-row h-[180px] w-[240px] justify-center items-center rounded-lg bg-slate-200">
                                             <div className="flex flex-col justify-center items-center">
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible24 && (<motion.div
@@ -851,14 +851,14 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[3].a}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[3].a}`)}</p>
 
                                                             </motion.div>)
                                                         }
                                                     </AnimatePresence>
 
                                                 </div>
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible27 && (<motion.div
@@ -866,7 +866,7 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[3].c}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[3].c}`)}</p>
 
                                                             </motion.div>)
                                                         }
@@ -904,7 +904,7 @@ export const TaskTwoTaskOne = () => {
                                                 </div>
                                             </div>
                                             <div className="flex flex-col justify-center items-center">
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible26 && (<motion.div
@@ -912,14 +912,14 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 2}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[3].b}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[3].b}`)}</p>
 
                                                             </motion.div>)
                                                         }
                                                     </AnimatePresence>
 
                                                 </div>
-                                                <div className="h-[80px] w-[40px] flex justify-center items-center">
+                                                <div className="h-[80px] w-[100px] flex justify-center items-center">
                                                     <AnimatePresence>
                                                         {
                                                             isVisible29 && (<motion.div
@@ -927,7 +927,7 @@ export const TaskTwoTaskOne = () => {
                                                                 animate={{opacity: 1}}
                                                                 transition={{duration: 3}}
                                                             >
-                                                                <p className="italic text-purple-800 m-[25px] text-xl"> {parse(`${data.solution[3].d}`)}</p>
+                                                                <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.solution[3].d}`)}</p>
 
                                                             </motion.div>)
                                                         }
@@ -938,7 +938,7 @@ export const TaskTwoTaskOne = () => {
                                         </div>
                                     </div>
 
-                                    <div className="h-[50px] w-[80px] flex justify-center items-center">
+                                    <div className="h-[50px] w-[100px] flex justify-center items-center">
                                         <AnimatePresence>
                                             {
                                                 isVisible15&& (<motion.div
@@ -1085,7 +1085,7 @@ export const TaskTwoTaskOne = () => {
                                                 animate={{opacity: 1}}
                                                 transition={{duration: 3}}
                                             >
-                                                {data.e && <p className="italic text-purple-800 text-2xl"> {parse(`${data.e}`)}</p>}
+                                                {data.e && <p className="italic text-center text-purple-800 text-xl"> {parse(`${data.e}`)}</p>}
 
                                             </motion.div>)
                                         }
@@ -1094,7 +1094,7 @@ export const TaskTwoTaskOne = () => {
                                 </div>
                                 <div className="flex flex-row h-[240px] w-[580px] justify-center items-center rounded-lg bg-slate-200">
                                     <div className="flex flex-col justify-center items-center">
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible2 && (<motion.div
@@ -1102,14 +1102,14 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.a}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.a}`)}</p>
 
                                                     </motion.div>)
                                                 }
                                             </AnimatePresence>
 
                                         </div>
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible5 && (<motion.div
@@ -1117,7 +1117,7 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.c}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.c}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -1154,7 +1154,7 @@ export const TaskTwoTaskOne = () => {
                                         </div>
                                     </div>
                                     <div className="flex flex-col justify-center items-center">
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible4 && (<motion.div
@@ -1162,14 +1162,14 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.b}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.b}`)}</p>
 
                                                     </motion.div>)
                                                 }
                                             </AnimatePresence>
 
                                         </div>
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[100px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible7 && (<motion.div
@@ -1177,7 +1177,7 @@ export const TaskTwoTaskOne = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.d}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-xl"> {parse(`${data.d}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -1185,7 +1185,8 @@ export const TaskTwoTaskOne = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="h-[50px] w-[80px] flex justify-center items-center">
+
+                                <div className="h-[50px] w-[300px] flex flex-col  justify-center items-center">
                                     <AnimatePresence>
                                         {
                                             isVisible10&& (<motion.div
@@ -1193,7 +1194,8 @@ export const TaskTwoTaskOne = () => {
                                                 animate={{opacity: 1}}
                                                 transition={{duration: 3}}
                                             >
-                                                <p className="italic text-purple-800 text-2xl  font-bold">X=?</p>
+                                                <p className="italic text-purple-800 text-2xl  font-bold">{parse(`${data.f}=?`)}</p>
+
 
                                             </motion.div>)
                                         }

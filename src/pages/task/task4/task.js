@@ -8,7 +8,7 @@ export const TaskListFour = ()=>{
     return (
         <div className="w-full h-[100vh] flex flex-col justify-center items-center" style={{ backgroundImage:`url(${fon})`, backgroundSize:'cover'}}>
             <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-sky-300">Назад</button></div>
-
+            <p className="text-center text-2xl">4.Ximiyaliq teńlemeler boyinsha esaplawlar</p>
             <div className="flex flex-col">
                 <div className="flex flex-row mb-[30px]">
                     <Link to={'/tasks4/category1'}>
