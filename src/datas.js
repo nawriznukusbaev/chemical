@@ -456,6 +456,7 @@ const datas5=[
         task:'Muǵdari 1,5 mol bolǵan nitrat kislota qansha massani quraydi?',
         desc:[
             'Berilgen: Mr(HNO<sub>3</sub>)=1+14+16*3=63gr/mol',
+            'n(HNO<sub>3</sub>)=1,5 mol'
         ],
         a:'1mol',
         b:'63gr',
@@ -908,7 +909,7 @@ const datas9 = [
         id:4,
         task:'Quraminda  3,01*10<sup>23</sup> dana kislorod atomlarin tutqan ' +
             'alyuminiy gidroksidiniń massasin tabiń?',
-        desc:['Berilgen:Mr(Al(OH)3)=27+2*(16+1)=78 gr/mol',
+        desc:['Berilgen:Mr(Al(OH)<sub>3</sub>)=27+2*(16+1)=78 gr/mol',
             '3,01*10<sup>23</sup> dana kislorod atomlari sani'],
         a:'6,02*10<sup>23</sup>',
         b:'78gr',
@@ -920,7 +921,7 @@ const datas9 = [
         id:5,
         task:'Quraminda 1,15*10<sup>23</sup>dana kalciy  atomlarin tutqan ' +
             'kalciy gidroksidiniń(Ca(OH)<sub>2</sub> ) massasin tabiń',
-        desc:['Berilgen:Mr(Ca(OH)2) =40+2*(16+1)=74gr/mol',
+        desc:['Berilgen:Mr(Ca(OH)<sub>2</sub>) =40+2*(16+1)=74gr/mol',
             '1,15*10<sup>23</sup> dana kalciy  atomlari sani'],
         a:'6,02*10<sup>23</sup>',
         b:'74gr',
@@ -972,16 +973,7 @@ const datas9 = [
         d:'x',
         x:'87gr'
     },
-    {
-        id:1,
-        task:'',
-        desc:['',''],
-        a:'',
-        b:'',
-        c:'',
-        d:'',
-        x:''
-    },
+
 
 ];
 
@@ -1187,7 +1179,7 @@ const datas11 = [
 
          ],
          solution:[
-             '4Fe(OH)<sub>2</sub>+O<sub>2</sub>+2H<sub>2</sub>O→4Fe(OH)<sub>2</sub>',
+             '4Fe(OH)<sub>2</sub>+O<sub>2</sub>+2H<sub>2</sub>O→4Fe(OH)<sub>3</sub>',
           ],
          a:'1mol',
          b:'22,4l',
@@ -1288,7 +1280,7 @@ const datas11 = [
      },
      {
          id:3,
-         task:'Massasi 64 gr cink sulfatinda (ZnSO4)  qansha mol atomliq kislorod bar?',
+         task:'Massasi 64 gr cink sulfatinda (ZnSO<sub>4</sub>)  qansha mol atomliq kislorod bar?',
          desc:[
              'Berilgen: Mr(ZnSO<sub>4</sub>)=65+32+4*16=161 gr/mol',
              'm(ZnSO<sub>4</sub>)=64 gr'
@@ -1393,7 +1385,7 @@ const datas11 = [
      },
      {
          id:2,
-         task:'Kaliy nitrat duzinda (KNO3) azot neshe % ti quraydi?',
+         task:'Kaliy nitrat duzinda (KNO<sub>3</sub>) azot neshe % ti quraydi?',
          desc:'Berilgen: Mr(KNO<sub>3</sub>)=39+14+16*3=101gr/mol',
          a:'101gr',
          b:'100%',
@@ -1455,15 +1447,15 @@ const datas15 = [
             },
             {   id:2,
                 a:'39',
-                b:'x<sup>1</sup>',
-                c:'x<sup>2</sup>',
-                x1:'x<sup>1</sup>=55',
-                x2:'x<sup>2</sup>=64',
+                b:'x<sub>1</sub>',
+                c:'x<sub>2</sub>',
+                x1:'x<sub>1</sub>=55',
+                x2:'x<sub>2</sub>=64',
                 d:'Birikpedegi atomlardiń qatnasi esaplanadi',
                 e:'39:39=1(K),   55:55=1(Mn),   64:16=4(O)'
             }
         ],
-        x:'Birikpeniń formulasi:KMnO<sup>4</sup>'
+        x:'Birikpeniń formulasi:KMnO<sub>4</sub>'
     },
     {
         id:'2',
@@ -1482,15 +1474,15 @@ const datas15 = [
             },
             {   id:2,
                 a:'40gr',
-                b:'x<sup>1</sup>',
-                c:'x<sup>2</sup>',
-                x1:'x<sup>1</sup>=32gr',
-                x2:'x<sup>2</sup>==64gr',
+                b:'x<sub>1</sub>',
+                c:'x<sub>2</sub>',
+                x1:'x<sub>1</sub>=32gr',
+                x2:'x<sub>2</sub>=64gr',
                 d:'Birikpedegi atomlardiń bir-birine qatnasi tabiladi',
                 e:'40:40=1(Ca),     32:32=1(S),  64:16=4'
             }
         ],
-        x:'Birikpeniń formulasi:CaSO<sup>4</sup>'
+        x:'Birikpeniń formulasi:CaSO<sub>4</sub>'
     },
     {
         id:'3',
@@ -1509,16 +1501,16 @@ const datas15 = [
             },
             {   id:2,
                 a:'23gr',
-                b:'x<sup>1</sup>',
-                c:'x<sup>2</sup>',
-                x1:'x<sup>1</sup>=10,4gr',
-                x2:'x<sup>2</sup>==21,35gr',
+                b:'x<sub>1</sub>',
+                c:'x<sub>2</sub>',
+                x1:'x<sub>1</sub>=10,4gr',
+                x2:'x<sub>2</sub>==21,35gr',
                 d:'Birikpedegi atomlardinı bir-birine qatnasi esaplanadi ',
                 e:'23:23=1(Na)*3=3,    10,4:31=0,33(P)*3=1,   21,35:16(O)=1,33*3=4'
             }
         ],
-        x:'Birikpeniń formulasi :Na<sup>3</sup>PO<sup>4</sup>'
-    },
+        x:'Birikpeniń formulasi :Na<sub>3</sub>PO<sub>4</sub>'
+    },/*
     {
         id:'4',
         task:'Belgisiz birikpeniń  quraminda  K-52,34%, Cl-47,65% ti quraydi. Birikpeniń formulasin tabiń?',
@@ -1541,7 +1533,7 @@ const datas15 = [
             }
         ],
         x:'Birikpeniń formulasi:  KCl'
-    },
+    },*/
     {
         id:'5',
         task:'Belgisiz birikpeniń quraminda Mg-20%, S-26,66%, O-53,33 ti quraydi. Birikpeniń formulasin tabiń?',
@@ -1558,15 +1550,15 @@ const datas15 = [
             },
             {   id:2,
                 a:'24gr',
-                b:'x<sup>1</sup>',
-                c:'x<sup>2</sup>',
-                x1:'x<sup>1</sup>=10,33',
-                x2:'x<sup>2</sup>==21,34',
+                b:'x<sub>1</sub>',
+                c:'x<sub>2</sub>',
+                x1:'x<sub>1</sub>=10,33',
+                x2:'x<sub>2</sub>=21,34',
                 d:'Birikpedegi atomlar qatnasi esaplanadi',
                 e:'24:24=1(Mg),  32:32=1(S), 64:16(O)=4 '
             }
         ],
-        x:'Birikpeniń  formulasi: MgSO<sup>4</sup>'
+        x:'Birikpeniń  formulasi: MgSO<sub>4</sub>'
     }
 ]
 
