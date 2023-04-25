@@ -47,6 +47,8 @@ import {TaskTwoTaskFour} from "./pages/task/task2/task4";
 import {TaskThreeCategory4} from "./pages/task/task3/categroy4";
 import {TaskFourCategory4} from "./pages/task/task4/categroy4";
 import {TaskThreeTaskFour} from "./pages/task/task3/task4";
+import {TaskThreeCategory1} from "./pages/task/task3/category1";
+import {TaskFourTaskFour} from "./pages/task/task4/task4";
 
 const App = () => {
     return (
@@ -72,7 +74,7 @@ const App = () => {
                          <Route path="/tasks2/category2/:data_id" element={<TaskTwoTaskTwo/>}/>
                          <Route path="/tasks2/category3/:data_id" element={<TaskTwoTaskThree/>}/>
                          <Route path="/tasks2/category4/:data_id" element={<TaskTwoTaskFour/>}/>
-                        <Route path="/tasks3/category1" element={<TaskTwoCategory1/>}/>
+                        <Route path="/tasks3/category1" element={<TaskThreeCategory1/>}/>
                         <Route path="/tasks3/category1/:data_id" element={<TaskThreeTaskOne/>}/>
                         <Route path="/tasks3/category2" element={<TaskThreeCategory2/>}/>
                         <Route path="/tasks3/category2/:data_id" element={<TaskThreeTaskTwo/>}/>
@@ -87,7 +89,7 @@ const App = () => {
                         <Route path="/tasks4/category3" element={<TaskFourCategory3/>}/>
                         <Route path="/tasks4/category3/:data_id" element={<TaskFourTaskThree/>}/>
                         <Route path="/tasks4/category4" element={<TaskFourCategory4/>}/>
-                        <Route path="/tasks4/category4/:data_id" element={<TaskFourCategory4/>}/>
+                        <Route path="/tasks4/category4/:data_id" element={<TaskFourTaskFour/>}/>
             <Route path='*' element={<NotFound/>}/>
 
                     </Routes>
