@@ -111,9 +111,9 @@ export const TaskThreeTaskTwo = () => {
                            <p className="italic text-rose-600 text-2xl mb-[50px]">{parse(`${data.desc}`)}</p>
                         </div>
                         {/*----------------------Right-------------------------*/}
-                        <div  className="flex flex-row h-[400px] w-[590px] justify-center items-center rounded-lg bg-slate-200">
+                        <div  className="flex flex-row h-[400px] w-[590px] justify-center rounded-lg bg-slate-200">
                             <div className="flex flex-col justify-center items-center">
-                                <div className="h-[100px] w-[100%] flex justify-center items-center p-[5px]">
+                                <div className="h-[140px] w-[100%] flex justify-center items-center p-[5px]">
                                     <AnimatePresence>
                                         {
                                             isVisible&& (<motion.div
@@ -129,7 +129,7 @@ export const TaskThreeTaskTwo = () => {
                                         }
                                     </AnimatePresence>
                                 </div>
-                                <div className="flex flex-row h-[200px] w-[580px] justify-center items-center rounded-lg bg-slate-200">
+                                <div className="flex flex-row h-[130px] w-[580px] justify-center items-center rounded-lg bg-slate-200">
                                     <div className="flex flex-col justify-center items-center">
                                         <div className="h-[60px] w-[80px] flex justify-center items-center">
                                             <AnimatePresence>

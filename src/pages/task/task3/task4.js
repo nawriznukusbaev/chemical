@@ -151,7 +151,7 @@ export const TaskThreeTaskFour = () => {
                                         }
                                     </AnimatePresence>
                                 </div>
-                                <div className="flex flex-row h-[120px] w-[580px] justify-center items-center rounded-lg bg-slate-200">
+                                <div className="flex flex-row h-[100px] mb-[50px] w-[580px] justify-center items-center rounded-lg bg-slate-200">
                                     <div className="flex flex-col justify-center items-center">
                                         <div className="h-[60px] w-[80px] flex justify-center items-center">
                                             <AnimatePresence>

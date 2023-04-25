@@ -14,7 +14,7 @@ export const TaskThreeCategory4 = ()=>{
                 <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-slate-100">Назад</button></div> {
                 datas15.map((item,index)=>{
                     return <Link  className="rounded-lg shadow-inner bg-slate-50 w-[100%] h-[100px]
-                            p-[20px] m-[20px] flex justify-start items-center" key={item} to={`/tasks3/categor4/${item.id}/`}>
+                            p-[20px] m-[20px] flex justify-start items-center" key={item} to={`/tasks3/category4/${item.id}/`}>
                         <p className="text-center text-lg">{parse(`${item.task}`)}</p>
                     </Link>
                 })
