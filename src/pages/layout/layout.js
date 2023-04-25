@@ -26,7 +26,7 @@ export const Layout = () => {
                 <Link to={'/tasks2'}>
                 <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] m-[20px] flex flex-col justify-center items-center">
                     <p className="text-center text-lg">Ximiyaliq formula boyinsha esaplawlar</p>
-                    <p className="text-center text-lg">1.Massa úlesti tabiw</p>
+                    <p className="text-center text-lg">Massa úlesti tabiw</p>
                 </div>
                 </Link>
             </div>
