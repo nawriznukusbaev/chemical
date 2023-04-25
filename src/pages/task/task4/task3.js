@@ -112,7 +112,7 @@ export const TaskFourTaskThree = () => {
                                                 transition={{duration: 3}}
                                             >
                                                 {data.solution.map((item)=>{
-                                                    return   <p className="italic text-rose-600 text-center align-middle text-2xl mb-[50px]">{parse(`${item}`)}</p>
+                                                    return   <p className="italic text-rose-600 text-center align-middle text-xl mb-[50px]">{parse(`${item}`)}</p>
                                                 })}
 
                                             </motion.div>)

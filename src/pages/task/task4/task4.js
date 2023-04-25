@@ -4,7 +4,7 @@ import {motion, AnimatePresence} from "framer-motion";
 import parse from "html-react-parser";
 import {useNavigate, useParams} from "react-router-dom";
 import {datas16} from "../../../datas";
-export const TasFourTaskFour = () => {
+export const TaskFourTaskFour = () => {
     const {data_id} = useParams();
     console.log(data_id)
     let data=[...datas16];

@@ -189,7 +189,7 @@ export const TaskFourTaskTwo = () => {
                                     </div>
                                 </div>
                                 <div className="flex flex-col justify-center items-center">
-                                    <div className="h-[60px] w-[80px] flex justify-center items-center">
+                                    <div className="h-[60px] w-[120px] flex justify-center items-center">
                                         <AnimatePresence>
                                             {
                                                 isVisible4 && (<motion.div
@@ -212,7 +212,7 @@ export const TaskFourTaskTwo = () => {
                                                     animate={{opacity: 1}}
                                                     transition={{duration: 3}}
                                                 >
-                                                    <p className="italic text-purple-800 my-[10px] mx-[25px] text-2xl"> {parse(`${data.c}`)}</p>
+                                                    <p className="italic text-purple-800 my-[10px] mx-[25px] text-2xl"> {parse(`${data.d}`)}</p>
 
                                                 </motion.div>)
                                             }
