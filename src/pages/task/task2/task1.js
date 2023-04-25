@@ -1194,7 +1194,7 @@ export const TaskTwoTaskOne = () => {
                                                 animate={{opacity: 1}}
                                                 transition={{duration: 3}}
                                             >
-                                                <p className="italic text-purple-800 text-2xl  font-bold">{parse(`${data.f}=?`)}</p>
+                                                <p className="italic text-purple-800 text-2xl  font-bold">X=?</p>
 
 
                                             </motion.div>)
