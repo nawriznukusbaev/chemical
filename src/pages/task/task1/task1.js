@@ -80,7 +80,7 @@ export const TaskOneTask = () => {
 
 
         return (<div className="container-xl bg-slate-100 flex flex w-[100%] h-[100vh] justify-center items-center">
-                <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-slate-100">Назад</button></div>
+                <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[15]  m-[15px] bg-slate-100">Назад</button></div>
                 <div className="flex flex-col items-center ">
                     <p className="italic text-purple-800 text-2xl mb-[100px]">
                         {parse(`${data.task}`)}
@@ -129,7 +129,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.a}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.a}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -144,7 +144,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.c}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.c}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -189,7 +189,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.b}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.b}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -204,7 +204,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.d}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.d}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -338,7 +338,7 @@ export const TaskOneTask = () => {
 
 
         return (<div className="container-xl bg-slate-100 flex flex w-[100%] h-[100vh] justify-center items-center">
-                <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-slate-100">Назад</button></div>
+                <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[15]  m-[15px] bg-slate-100">Назад</button></div>
                 <div className="flex flex-col items-center ">
                     <p className="italic text-purple-800 text-2xl text-center mb-[100px]">
                         {parse(`${data.task}`)}
@@ -373,7 +373,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.e}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.e}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -388,7 +388,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.a}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.a}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -403,7 +403,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.c}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.c}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -461,7 +461,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.f}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.f}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -476,7 +476,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.b}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.b}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -491,7 +491,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.d}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.d}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -613,7 +613,7 @@ export const TaskOneTask = () => {
 
         return (
             <div className="container-xl bg-slate-100 flex flex-col w-[100%] h-[100vh] justify-center items-center">
-                <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-sky-300">Назад</button></div>
+                <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[15]  m-[15px] bg-sky-300">Назад</button></div>
                 <div className="flex flex-col items-center ">
                     <p className="italic text-purple-800 text-2xl mb-[100px]">
                         {parse(`${data.task}`)}
@@ -647,7 +647,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.a}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.a}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -662,7 +662,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.c}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15] text-2xl"> {parse(`${data.c}`)}</p>
 
                                                     </motion.div>)
                                                 }
@@ -699,7 +699,7 @@ export const TaskOneTask = () => {
                                         </div>
                                     </div>
                                     <div className="flex flex-col justify-center items-center">
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[130px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible4 && (<motion.div
@@ -707,14 +707,14 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.b}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-2xl"> {parse(`${data.b}`)}</p>
 
                                                     </motion.div>)
                                                 }
                                             </AnimatePresence>
 
                                         </div>
-                                        <div className="h-[80px] w-[80px] flex justify-center items-center">
+                                        <div className="h-[80px] w-[130px] flex justify-center items-center">
                                             <AnimatePresence>
                                                 {
                                                     isVisible7 && (<motion.div
@@ -722,7 +722,7 @@ export const TaskOneTask = () => {
                                                         animate={{opacity: 1}}
                                                         transition={{duration: 3}}
                                                     >
-                                                        <p className="italic text-purple-800 m-[25px] text-2xl"> {parse(`${data.d}`)}</p>
+                                                        <p className="italic text-purple-800 m-[15px] text-2xl"> {parse(`${data.d}`)}</p>
 
                                                     </motion.div>)
                                                 }
