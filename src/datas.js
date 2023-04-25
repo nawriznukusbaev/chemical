@@ -1,4 +1,4 @@
- const datas1 = [
+const datas1 = [
     {
         id: 1,
         task: `25 gr natriy oksidiniń  (Na<sub>2</sub>O)  muǵdarin tabiń?`,
@@ -46,7 +46,7 @@
         id: 5,
         task: `Muǵdari 0,6 mol bolǵan  azot (I) oksidiniń (N<sub>2</sub>O) massasin tabiń?`,
         desc: `Berilgen:Mr(N<sub>2</sub>O) =14*2+16=44gr/mol`,
-        desc2: 'm(Na<sub>2</sub>O) =25gr2O)=0,6 mol',
+        desc2: 'n(N<sub>2</sub>O)=0,6 mol',
         a: `1mol`,
         b: `44gr`,
         c: `0,6`,
@@ -87,7 +87,7 @@
     }, {
         id: 9,
         task: `Massasi 25 gr bolǵan Cr<sub>2</sub>O<sub>3</sub> tegi Cr  atomlariniń sanin esaplań?`,
-        desc: `Berilgen:Mr(Cr<sub>2</sub>O<sub>3</sub>)=52*2+16*3=152gr/mol. 1 molekula oksidte 2 mol xrom bar`,
+        desc: `Berilgen:Mr(Cr<sub>2</sub>O<sub>3</sub>)=52*2+16*3=152gr/mol.`,
         desc2: 'm(Cr<sub>2</sub>O<sub>3</sub>)=25 gr',
         e: '1 molekula oksidte 2*6,02*10<sup>23</sup>=12,04*10<sup>23</sup> atom  xrom bar',
         a: `152gr`,
@@ -99,7 +99,7 @@
         id: 10,
         task: `Quraminda 1,3 mol Fe atomlari bolǵan Fe<sub>2</sub>O<sub>3</sub> tiń massasin esaplań?`,
         desc: `Berilgen:Mr(Fe<sub>2</sub>O<sub>3</sub>)=56*2+16*3=160gr/mol`,
-        desc2: 'm(Cr<sub>2</sub>O<sub>3</sub>)=25 gr2O3)=1,3 mol',
+        desc2: 'n(Fe<sub>2</sub>O<sub>3</sub>)=1,3 mol',
         a: `160gr`,
         b: `2 mol(Fe)`,
         c: `x`,
@@ -157,11 +157,11 @@
         x: `1,204*10<sup>23</sup>`
     }, {
         id: 16,
-        task: `Quraminda 12,04*10<sup>23</sup> dana kislorod atomlarin tutqan  temir (III)Fe<sub>2</sub>O<sub>3</sub> niń muǵdarin tabiń?. 1mol (Fe<sub>2</sub>O<sub>3</sub>)---3mol(O)`,
-        desc: `Berilgen:Mr(Fe<sub>2</sub>O<sub>3</sub>)=56*2+16*3=160 gr/mol 1mol`,
+        task: `Quraminda 12,04*10<sup>23</sup> dana kislorod atomlarin tutqan  temir (III)Fe<sub>2</sub>O<sub>3</sub> niń muǵdarin tabiń?`,
+        desc: `Berilgen:Mr(Fe<sub>2</sub>O<sub>3</sub>)=56*2+16*3=160 gr/mol`,
         desc2: '12,04*10<sup>23</sup> dana kislorod atomlari sani',
         a: `1`,
-        b: `6,02*10<sup>23</sup>`,
+        b: `6,02*10<sup>23</sup>*3`,
         c: `x`,
         d: `1,204*10<sup>23</sup>`,
         e: '1mol (Fe<sub>2</sub>O<sub>3</sub>)',
@@ -206,7 +206,7 @@ const datas2 = [
         x: '70%'
     },
 
-     {
+    {
         id:4,
         task:'  Element oksidi  EO<sub>3</sub>  quramǵa iye.' +
             '  Bul oksidtegi kislorodtiń massa úlesi 60% ' +
@@ -231,7 +231,7 @@ const datas2 = [
             ' úlesi 71,17 %. Bul qanday element?',
         desc:[
             'Berilgen: E<sup>+4</sup>O<sub>2</sub>',
-            '(m.u E%= 100%-60%=40% )'
+            '(O%= 100-71,17=28,83% )'
         ],
         a:'32gr',
         b:'28,83%',
@@ -355,7 +355,7 @@ const datas3 = [
         b:'60gr',
         c:'31gr',
         d:'x',
-        f:'40gr',
+        f:'x=40gr',
         solution2:[
             'Birikpedegi atomlardin’ qatnasin esaplaymiz',
             '31:31=1(P)*2=2 ,  40:16=2,5(O)*2=5',
@@ -430,9 +430,9 @@ const datas4=[
             'm(S)=24gr',
             'Ar(S)=32gr'
         ],
-        solution:['S+O<sub>2</sub→SO<sub>2</sub'],
+        solution:['S+O<sub>2</sub>→SO<sub>2</sub'],
         a:'32gr',
-        b:'64grr',
+        b:'64gr',
         c:'24gr',
         d:'x',
         x:'48 gr'
@@ -542,7 +542,7 @@ const datas5=[
         task:'Quraminda 1,15*10<sup>23</sup> dana vodorod atomlarin ' +
             'tutqan fosfat kislotasiniń(H<sub>3</sub>PO<sub>4</sub>) massasin tabiń',
         desc: [
-            'Berilgen:Mr(H<sub>3</sub>PO<sub>4</sub) =1*3+31+16*4=98gr/mol',
+            'Berilgen:Mr(H<sub>3</sub>PO<sub>4</sub>)=1*3+31+16*4=98gr/mol',
             '1,15*10<sup>23</sup> dana vodorod atomlari sani'],
         solution:[
             'Fosfat kislotasiniń 1 molekulasinda 3 ' +
@@ -560,63 +560,63 @@ const datas5=[
             ' dana molekula tutqa  nitrat kislotasiniń massasin tabiń ',
         desc: ['Berilgen:Mr(HNO<sub>3</sub>) =1+14+16*3=63gr/mol',
             '7,03*10<sup>23</sup> dana molekula sani'],
-    a:'63gr',
-    b:'6,02*10<sup>23</sup>',
-    c:'x',
-    d:'7,03*10<sup>23</sup>',
-    x:'73,56gr'
+        a:'63gr',
+        b:'6,02*10<sup>23</sup>',
+        c:'x',
+        d:'7,03*10<sup>23</sup>',
+        x:'73,56gr'
 
-},
-{id:10,
-    task:'Quraminda 9,03*10<sup>23</sup> dana molekula' +
-' tutqan xlorid kislotasiniń massasin tabiń?',
-    desc:[
-    'Berilgen:Mr(HCl)=1+35,5=36,5gr/mol',
-    '9,03*10<sup>23</sup> dana molekula sani'],
-    a:'6,02*10<sup>23</sup>',
-    b:'36,5gr',
-    c:'9,03*10<sup>23</sup>',
-    d:'x',
-    x:'54,75gr '
+    },
+    {id:10,
+        task:'Quraminda 9,03*10<sup>23</sup> dana molekula' +
+            ' tutqan xlorid kislotasiniń massasin tabiń?',
+        desc:[
+            'Berilgen:Mr(HCl)=1+35,5=36,5gr/mol',
+            '9,03*10<sup>23</sup> dana molekula sani'],
+        a:'6,02*10<sup>23</sup>',
+        b:'36,5gr',
+        c:'9,03*10<sup>23</sup>',
+        d:'x',
+        x:'54,75gr '
 
-},
-{id:11,
-    task:'Quraminda 3,01*10<sup>23</sup> dana   kislorod  atomin  ' +
-'tutqan  nitrat  kislotasiniń (HNO<sub>3</sub>)  massasin tabiń?',
-    desc:['Berilgen: Mr(HNO<sub>3</sub>)=1+14+16*3=63gr/mol',
-    '3,01*10<sup>23</sup> dana   kislorod  atomi sani'],
-    solution:[
-        'Nitrat kislotasiniń 1 molekulasinda 3 ' +
-        'dana atomliq kislorod bar ekenligin esapqa alamiz',
-    ],
+    },
+    {id:11,
+        task:'Quraminda 3,01*10<sup>23</sup> dana   kislorod  atomin  ' +
+            'tutqan  nitrat  kislotasiniń (HNO<sub>3</sub>)  massasin tabiń?',
+        desc:['Berilgen: Mr(HNO<sub>3</sub>)=1+14+16*3=63gr/mol',
+            '3,01*10<sup>23</sup> dana   kislorod  atomi sani'],
+        solution:[
+            'Nitrat kislotasiniń 1 molekulasinda 3 ' +
+            'dana atomliq kislorod bar ekenligin esapqa alamiz',
+        ],
         a:'6,02*10<sup>23</sup>*3',
-    b:'63gr',
-    c:'3,01*10<sup>23</sup>',
-    d:'x',
-    x:'10,5gr'
+        b:'63gr',
+        c:'3,01*10<sup>23</sup>',
+        d:'x',
+        x:'10,5gr'
 
-},
-{id:12,
-    task:'Quraminda 18,06*10<sup>23</sup> dana  kislorod' +
-' atomin tutqan fosfat kislotasiniń muǵdarin tabiń?',
-    desc:[
-    'Berilgen:Mr(H<sub>3</sub>PO<sub>4</sub>)=98gr/mol',
-    '18,06*10<sup>23</sup>dana kislorod atom sani'],
-    solution:[
-        'Fosfat kislotasiniń 1 molekulasinda' +
-        ' 4 dana atomliq kislorod bar ekenligin esapqa alamiz',
-    ],
+    },
+    {id:12,
+        task:'Quraminda 18,06*10<sup>23</sup> dana  kislorod' +
+            ' atomin tutqan fosfat kislotasiniń muǵdarin tabiń?',
+        desc:[
+            'Berilgen:Mr(H<sub>3</sub>PO<sub>4</sub>)=98gr/mol',
+            '18,06*10<sup>23</sup>dana kislorod atom sani'],
+        solution:[
+            'Fosfat kislotasiniń 1 molekulasinda' +
+            ' 4 dana atomliq kislorod bar ekenligin esapqa alamiz',
+        ],
         a:'6,02*10<sup>23</sup>*4',
-    b:'1mol',
-    c:'18,06*10<sup>23</sup>',
-    d:'x',
-    x:'0,75mol'
+        b:'1mol',
+        c:'18,06*10<sup>23</sup>',
+        d:'x',
+        x:'0,75mol'
 
-},
+    },
 ]
 
 const datas6=[
-       {
+    {
         id:2,
         task:'Nitrat kislotasinda (HNO<sub>3</sub>) azot neshe % ti quraydi?',
         desc:['Berilgen: Mr(HNO<sub>3</sub>)=1+14+16*3=63gr/mol',
@@ -641,7 +641,7 @@ const datas6=[
         id:4,
         task:'Fosfat kislotasinda (H<sub>3</sub>PO<sub>4</sub>) ' +
             'fosfor neshe % ti quraydi?',
-        desc:['Berilgen: Mr(H<sub>3</sub>PO<sub>4</sub>)=1*3+31+16*4=gr/mol','Ar(P)=31'],
+        desc:['Berilgen: Mr(H<sub>3</sub>PO<sub>4</sub>)=1*3+31+16*4=98gr/mol','Ar(P)=31'],
         a:'98gr',
         b:'100%',
         c:'31gr',
@@ -698,7 +698,7 @@ const datas7=[
             'Vodorod massasi 1 gr ekenligin esapqa alip 1 gr vodorod penen birigetugin' +
             ' atomlar massasi esaplanadi hám tabilǵan mánislerden atomlar qatnasi esaplanadi'
         ],
-    solution1:[
+        solution1:[
             {   id:1,
                 a:'2,2gr',
                 b:'55,7gr',
@@ -887,7 +887,7 @@ const datas9 = [
         id:2,
         task:'Muǵdari 3,5 mol bolǵan kalciy gidroksidiniń massasin tabiń?',
         desc:['Berilgen:Mr(Ca(OH)<sub>2</sub>)=40+2*(16+1)=74gr/mol',
-            'n(Ca(OH)<sub>2</sub>=3,5 mol'],
+            'n(Ca(OH)<sub>2</sub>)=3,5 mol'],
         a:'1mo',
         b:'74gr',
         c:'3,5mol',
@@ -978,57 +978,57 @@ const datas9 = [
 ];
 
 const datas10 =    [
-        {
-            id:1,
-            task:'Magniy gidroksidinde (Mg(OH)<sub>2</sub>) kislorod neshe  % ti quraydi?',
-            desc:'Berilgen: Mr(Mg(OH)<sub>2</sub>)=24+2*(16+1)=58gr/mol',
-            a:'58gr',
-            b:'100%',
-            c:'32gr',
-            d:'x',
-            x:'55,17%'
-        },
-        {
-            id:2,
-            task:'Temir (III)gidroksidinde  (Fe(OH)<sub>3</sub>) temir  neshe % ti quraydi?',
-            desc:'Berilgen: Mr(Fe(OH)<sub>3</sub>)=56+3*(16+1)=107gr/mol',
-            a:'107gr',
-            b:'100%',
-            c:'56gr',
-            d:'x',
-            x:'52,33%'
-        },
-        {
-            id:3,
-            task:'Beriliy gidroksidinde (Be(OH)<sub>2</sub>) vodorod neshe % ti quraydi? ',
-            desc:'Berilgen: Mr(Be(OH)<sub>2</sub>)=9+2*(16+1)=43gr/mol',
-            a:'43gr',
-            b:'100%',
-            c:'2gr',
-            d:'x',
-            x:'4,65%'
-        },
-        {
-            id:4,
-            task:'Natriy gidroksidinde  (NaOH) natriy neshe % ti quraydi?',
-            desc:'Berilgen:Mr(NaOH)=23+16+1=40gr/mol',
-            a:'40gr',
-            b:'100%',
-            c:'23gr',
-            d:'x',
-            x:'57,5%'
-        },
-        {
-            id:5,
-            task:'Kaliy gidroksidinde kislorod neshe %  ti quraydi?',
-            desc:'Berilgen:Mr(KOH)=39+16+1=56gr/mol',
-            a:'56gr',
-            b:'100%',
-            c:'16gr',
-            d:'x',
-            x:'28,57%'
-        }
-    ];
+    {
+        id:1,
+        task:'Magniy gidroksidinde (Mg(OH)<sub>2</sub>) kislorod neshe  % ti quraydi?',
+        desc:'Berilgen: Mr(Mg(OH)<sub>2</sub>)=24+2*(16+1)=58gr/mol',
+        a:'58gr',
+        b:'100%',
+        c:'32gr',
+        d:'x',
+        x:'55,17%'
+    },
+    {
+        id:2,
+        task:'Temir (III)gidroksidinde  (Fe(OH)<sub>3</sub>) temir  neshe % ti quraydi?',
+        desc:'Berilgen: Mr(Fe(OH)<sub>3</sub>)=56+3*(16+1)=107gr/mol',
+        a:'107gr',
+        b:'100%',
+        c:'56gr',
+        d:'x',
+        x:'52,33%'
+    },
+    {
+        id:3,
+        task:'Beriliy gidroksidinde (Be(OH)<sub>2</sub>) vodorod neshe % ti quraydi? ',
+        desc:'Berilgen: Mr(Be(OH)<sub>2</sub>)=9+2*(16+1)=43gr/mol',
+        a:'43gr',
+        b:'100%',
+        c:'2gr',
+        d:'x',
+        x:'4,65%'
+    },
+    {
+        id:4,
+        task:'Natriy gidroksidinde  (NaOH) natriy neshe % ti quraydi?',
+        desc:'Berilgen:Mr(NaOH)=23+16+1=40gr/mol',
+        a:'40gr',
+        b:'100%',
+        c:'23gr',
+        d:'x',
+        x:'57,5%'
+    },
+    {
+        id:5,
+        task:'Kaliy gidroksidinde kislorod neshe %  ti quraydi?',
+        desc:'Berilgen:Mr(KOH)=39+16+1=56gr/mol',
+        a:'56gr',
+        b:'100%',
+        c:'16gr',
+        d:'x',
+        x:'28,57%'
+    }
+];
 
 
 const datas11 = [
@@ -1130,7 +1130,7 @@ const datas11 = [
                 c:'2,2gr '
             },
             {   id:2,
-                a:'56grr',
+                a:'56gr',
                 b:'x<sub>1</sub>',
                 c:'x<sub>2</sub>',
                 x1:'x<sub>1</sub>=32gr',
@@ -1170,89 +1170,89 @@ const datas11 = [
     }
 ]
 
- const datas12 = [
-     { id:1,
+const datas12 = [
+    { id:1,
         task:'1mol temir (II)gidroksidin temir(III)gidroksidine aylandiriw ushin qansha l kislorod  kerek?',
-         desc:[
-             'Berilgen: m(Fe(OH)<sub>2</sub>)=56+2*(16+1)=90gr/mol',
-             'n(Fe(OH)<sub>2</sub>=1 mol',
+        desc:[
+            'Berilgen: m(Fe(OH)<sub>2</sub>)=56+2*(16+1)=90gr/mol',
+            'n(Fe(OH)<sub>2</sub>=1 mol',
 
-         ],
-         solution:[
-             '4Fe(OH)<sub>2</sub>+O<sub>2</sub>+2H<sub>2</sub>O→4Fe(OH)<sub>3</sub>',
-          ],
-         a:'1mol',
-         b:'22,4l',
-         c:'4mol',
-         d:'x',
-         x:'5,6 l O<sub>2</sub>'
-     },
-     { id:2,
-         task:'Massasi  5,6 gr nitrat kislotani  neytrallaw ushin kerek bolatuǵin natriy gidroksidiniń massasin tabiń?  ',
-         desc:[
-             'Berilgen:Mr(HNO<sub>3</sub>)=1+14+48=63gr/mol',
-             'Mr(NaOH)=23+16+1=40gr/mol',
-             'm(HNO<sub>3</sub>)=5.6gr',
+        ],
+        solution:[
+            '4Fe(OH)<sub>2</sub>+O<sub>2</sub>+2H<sub>2</sub>O→4Fe(OH)<sub>3</sub>',
+        ],
+        a:'1mol',
+        b:'22,4l',
+        c:'4mol',
+        d:'x',
+        x:'5,6 l O<sub>2</sub>'
+    },
+    { id:2,
+        task:'Massasi  5,6 gr nitrat kislotani  neytrallaw ushin kerek bolatuǵin natriy gidroksidiniń massasin tabiń?  ',
+        desc:[
+            'Berilgen:Mr(HNO<sub>3</sub>)=1+14+48=63gr/mol',
+            'Mr(NaOH)=23+16+1=40gr/mol',
+            'm(HNO<sub>3</sub>)=5.6gr',
 
-         ],
-         solution: [
-             'M(HNO<sub>3</sub>)=5,6gr',
-             ' HNO<sub>3</sub>+NaOH→NaNO<sub>3</sub>+H<sub>2</sub>O'
-         ],
-         a:'63gr',
-         b:'40gr',
-         c:'5,6gr',
-         d:'x',
-         x:'3,55gr'
-     },
-     { id:3,
-         task:'Massasi 54 gr kaliy gidroksidi alyuminiy xloridi menen reakciyaǵa kiriskende qansha gr  shókpe payda boladi?',
-         desc:[
-             'Berilgen: Mr(KOH) =39+16+1=56gr/mol',
-             'Mr(Al(OH<sub>3</sub>))=27+3*(16+1)=78gr/mol',
-             'm(KOH)=54gr',
-             ],
-         solution: ['3KOH+AlCl<sub>3</sub>→Al(OH)<sub>3</sub>↓+KCl<sub>3</sub>'],
-         a:'168gr',
-         b:'78gr',
-         c:'54gr',
-         d:'x',
-         x:'25,07 gr Al(OH)<sub>3</sub↓'
-     },
-     { id:4,
-         task:'Massasi 40 gr uglerod (IV) oksidi bariy gidroksidi eritpesi arqali ótkerildi,  bunda qansha shókpe payda boladi?',
-         desc:[
-             'Berilgen:Mr(CO<sub>2</sub>) =12+16*3=44gr/mol',
-             'Mr(Ba(OH)<sub>2</sub>) =137+2*(16+1)=171gr/mol',
-             'm(CO<sub>2</sub>)=40 gr',
+        ],
+        solution: [
+            'M(HNO<sub>3</sub>)=5,6gr',
+            ' HNO<sub>3</sub>+NaOH→NaNO<sub>3</sub>+H<sub>2</sub>O'
+        ],
+        a:'63gr',
+        b:'40gr',
+        c:'5,6gr',
+        d:'x',
+        x:'3,55gr'
+    },
+    { id:3,
+        task:'Massasi 54 gr kaliy gidroksidi alyuminiy xloridi menen reakciyaǵa kiriskende qansha gr  shókpe payda boladi?',
+        desc:[
+            'Berilgen: Mr(KOH) =39+16+1=56gr/mol',
+            'Mr(Al(OH<sub>3</sub>))=27+3*(16+1)=78gr/mol',
+            'm(KOH)=54gr',
+        ],
+        solution: ['3KOH+AlCl<sub>3</sub>→Al(OH)<sub>3</sub>↓+KCl<sub>3</sub>'],
+        a:'168gr',
+        b:'78gr',
+        c:'54gr',
+        d:'x',
+        x:'25,07 gr Al(OH)<sub>3</sub↓'
+    },
+    { id:4,
+        task:'Massasi 40 gr uglerod (IV) oksidi bariy gidroksidi eritpesi arqali ótkerildi,  bunda qansha shókpe payda boladi?',
+        desc:[
+            'Berilgen:Mr(CO<sub>2</sub>) =12+16*3=44gr/mol',
+            'Mr(Ba(OH)<sub>2</sub>) =137+2*(16+1)=171gr/mol',
+            'm(CO<sub>2</sub>)=40 gr',
 
-         ],
-         solution:['CO<sub>2</sub>+Ba(OH)<sub>2</sub>→ BaCO<sub>3</sub>↓+H<sub>2</sub>O'],
-         a:'44gr',
-         b:'197gr',
-         c:'40gr',
-         d:'x',
-         x:'179 gr'
-     },
-     { id:5,
-         task:'Massasi 40gr  xrom(III) gidroksidi xlorid kislotasi menen tásirleskende qansha gr duz payda boladi?',
-         desc:[
-             'Berilgen:Mr(Cr(OH)<sub>3</sub>) =52+3*(16+1)=103gr/mol',
-             'Mr(HCl) =1+35,5=36,5gr/mol',
-             'Mr(CrCl<sub>3</sub>) =52+35,5*3=158,5gr/mol',
-             'm(Cr(OH)<sub>3</sub>)=40gr',
-         ],
-            solution: ['Cr(OH)<sub>3</sub>+3HCl→CrCl<sub>3</sub>+3H<sub>2</sub>O'],
-         a:'103gr',
-         b:'58,5gr',
-         c:'40gr',
-         d:'x',
-         x:'61,55gr CrCl<sub>3</sub>'
-     }
- ]
+        ],
+        solution:['CO<sub>2</sub>+Ba(OH)<sub>2</sub>→ BaCO<sub>3</sub>↓+H<sub>2</sub>O'],
+        a:'44gr',
+        b:'197gr',
+        c:'40gr',
+        d:'x',
+        x:'179 gr'
+    },
+    { id:5,
+        task:'Massasi 40gr  xrom(III) gidroksidi xlorid kislotasi menen tásirleskende qansha gr duz payda boladi?',
+        desc:[
+            'Berilgen:Mr(Cr(OH)<sub>3</sub>) =52+3*(16+1)=103gr/mol',
+            'Mr(HCl) =1+35,5=36,5gr/mol',
+            'Mr(CrCl<sub>3</sub>) =52+35,5*3=158,5gr/mol',
+            'm(Cr(OH)<sub>3</sub>)=40gr',
+        ],
+        solution: ['Cr(OH)<sub>3</sub>+3HCl→CrCl<sub>3</sub>+3H<sub>2</sub>O'],
+        a:'103gr',
+        b:'58,5gr',
+        c:'40gr',
+        d:'x',
+        x:'61,55gr CrCl<sub>3</sub>'
+    }
+]
 
- const datas13= [
-     {
+const datas13= [
+    {
         id:1,
         task:'Massasi 80gr bolǵan natriy sulfatiniń  muǵdarin tabiń?',
         desc:[
@@ -1264,175 +1264,175 @@ const datas11 = [
         c:'80gr',
         d:'x',
         x:'0,56 mol'
-     },
-     {
-         id:2,
-         task:'Muǵdari 1,5 mol bolǵan magniy (II) nitratiniń massasin tabiń?',
-         desc:[
-             'Berilgen:Mr(Mg(NO<sub>3</sub>)<sub>2</sub>)=24+2*(14+16)=84gr/mol',
-             'n(Mg(NO<sub>3</sub>)<sub>2</sub>)2=1,5 mol'
-         ],
-         a:'1mol',
-         b:'84gr',
-         c:'1,5mol',
-         d:'x',
-         x:'126 gr'
-     },
-     {
-         id:3,
-         task:'Massasi 64 gr cink sulfatinda (ZnSO<sub>4</sub>)  qansha mol atomliq kislorod bar?',
-         desc:[
-             'Berilgen: Mr(ZnSO<sub>4</sub>)=65+32+4*16=161 gr/mol',
-             'm(ZnSO<sub>4</sub>)=64 gr'
-         ],
-         a:'161gr',
-         b:'4mol',
-         c:'64gr',
-         d:'x',
-         x:'1,6 mol '
-     },
-     {
-         id:4,
-         task:'Quraminda  1,15*10<sup>23</sup> dana xlor atomlarin tutqan kalciy xloridiniń massasin tabiń?',
-         desc:[
-             'Berilgen:Mr(CaCl<sub>2</sub>)=40+35,5*2=111 gr/mol',
-             ' 1,15*10<sup>23</sup> dana xlor atomlari sani'
-         ],
-         a:'6,02*10<sup>23</sup>*2',
-         b:'111gr ',
-         c:'1,15*10<sup>23</sup>',
-         d:'x',
-         x:'10,6gr'
-     },
-     {
-         id:5,
-         task:'Quraminda 3,03*10<sup>23</sup> dana natriy atomlarin tutqan natriy fosfat duziniń massasin tabiń?',
-         desc:[
-             'Berilgen:Mr(Na<sup>3</sup>PO<sup>4</sup>) =23*3+31+16*4=164gr/mol',
-             '3,03*10<sup>23</sup> dana natriy atomlari sani'
-         ],
-         a:'3*6,02*10<sup>23</sup>',
-         b:'164gr',
-         c:'3,03*10<sup>23</sup>',
-         d:'x',
-         x:'27,51 gr'
-     },
-     {
-         id:6,
-         task:'Quraminda 4,03*10<sup>23</sup> dana molekula tutqan  kaliy xlorid duziniń massasin tabiń? ',
-         desc:[
-             'Berilgen:Mr(KCl) =39+35,5=74,gr/mol',
-             '4,03*10<sup>23</sup> dana molekula sani'
-         ],
-         a:'74,5gr',
-         b:'6,02*10<sup>23</sup>',
-         c:'x',
-         d:'4,03*10<sup>23</sup>',
-         x:'49,87gr'
-     },
-     {
-         id:7,
-         task:'Quraminda  5,03*10<sup>23</sup> dana molekula tutqan magniy xloridiniń massasin tabiń?',
-         desc:[
-             'Berilgen:Mr(MgCl<sup>2</sup>)=24+35,5*2=95gr/mol',
-             '5,03*10<sup>23</sup>dana molekula sani'
-         ],
-         a:'6,02*10<sup>23</sup>',
-         b:'95gr',
-         c:'5,03*10<sup>23</sup>',
-         d:'x',
-         x:'79,37gr'
-     },
-     {
-         id:8,
-         task:'Quraminda 3,01*10<sup>23</sup> dana   kislorod  atomin  tutqan kaliy nitrat  duziniń  massasin tabiń?',
-         desc:[
-             'Berilgen:Mr(KNO<sub>3</sub>)=39+14+16*3=101gr/mol',
-             '3,01*10<sup>23</sup> dana   kislorod  atomi sani'
-         ],
-         a:'6,02*10<sup>23</sup>*3',
-         b:'101gr',
-         c:'3,01*10<sup>23</sup>',
-         d:'x',
-         x:'77gr'
-     },
-     {
-         id:9,
-         task:'Quraminda 12,04*10<sup>23</sup> dana atom kislorod tutqan kalciy fosfat duziniń muǵdarin tabiń?',
-         desc:[
-             'Berilgen:Mr(Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>)=40*3+2*(31+16*4)=312gr/mol',
-             '12,04*10<sup>23</sup> dana atom sani'
-         ],
-         a:'6,02*10<sup>23</sup>*8',
-         b:'1mol',
-         c:'12,04*10<sup>23</sup>',
-         d:'x',
-         x:'0,25 mol'
-     },
- ]
+    },
+    {
+        id:2,
+        task:'Muǵdari 1,5 mol bolǵan magniy (II) nitratiniń massasin tabiń?',
+        desc:[
+            'Berilgen:Mr(Mg(NO<sub>3</sub>)<sub>2</sub>)=24+2*(14+16)=84gr/mol',
+            'n(Mg(NO<sub>3</sub>)<sub>2</sub>)=1,5 mol'
+        ],
+        a:'1mol',
+        b:'84gr',
+        c:'1,5mol',
+        d:'x',
+        x:'126 gr'
+    },
+    {
+        id:3,
+        task:'Massasi 64 gr cink sulfatinda (ZnSO<sub>4</sub>)  qansha mol atomliq kislorod bar?',
+        desc:[
+            'Berilgen: Mr(ZnSO<sub>4</sub>)=65+32+4*16=161 gr/mol',
+            'm(ZnSO<sub>4</sub>)=64 gr'
+        ],
+        a:'161gr',
+        b:'4mol',
+        c:'64gr',
+        d:'x',
+        x:'1,6 mol '
+    },
+    {
+        id:4,
+        task:'Quraminda  1,15*10<sup>23</sup> dana xlor atomlarin tutqan kalciy xloridiniń massasin tabiń?',
+        desc:[
+            'Berilgen:Mr(CaCl<sub>2</sub>)=40+35,5*2=111 gr/mol',
+            ' 1,15*10<sup>23</sup> dana xlor atomlari sani'
+        ],
+        a:'6,02*10<sup>23</sup>*2',
+        b:'111gr ',
+        c:'1,15*10<sup>23</sup>',
+        d:'x',
+        x:'10,6gr'
+    },
+    {
+        id:5,
+        task:'Quraminda 3,03*10<sup>23</sup> dana natriy atomlarin tutqan natriy fosfat duziniń massasin tabiń?',
+        desc:[
+            'Berilgen:Mr(Na<sup>3</sup>PO<sup>4</sup>) =23*3+31+16*4=164gr/mol',
+            '3,03*10<sup>23</sup> dana natriy atomlari sani'
+        ],
+        a:'3*6,02*10<sup>23</sup>',
+        b:'164gr',
+        c:'3,03*10<sup>23</sup>',
+        d:'x',
+        x:'27,51 gr'
+    },
+    {
+        id:6,
+        task:'Quraminda 4,03*10<sup>23</sup> dana molekula tutqan  kaliy xlorid duziniń massasin tabiń? ',
+        desc:[
+            'Berilgen:Mr(KCl) =39+35,5=74,5 gr/mol',
+            '4,03*10<sup>23</sup> dana molekula sani'
+        ],
+        a:'74,5gr',
+        b:'6,02*10<sup>23</sup>',
+        c:'x',
+        d:'4,03*10<sup>23</sup>',
+        x:'49,87gr'
+    },
+    {
+        id:7,
+        task:'Quraminda  5,03*10<sup>23</sup> dana molekula tutqan magniy xloridiniń massasin tabiń?',
+        desc:[
+            'Berilgen:Mr(MgCl<sub>2</sub>)=24+35,5*2=95gr/mol',
+            '5,03*10<sup>23</sup>dana molekula sani'
+        ],
+        a:'6,02*10<sup>23</sup>',
+        b:'95gr',
+        c:'5,03*10<sup>23</sup>',
+        d:'x',
+        x:'79,37gr'
+    },
+    {
+        id:8,
+        task:'Quraminda 3,01*10<sup>23</sup> dana   kislorod  atomin  tutqan kaliy nitrat  duziniń  massasin tabiń?',
+        desc:[
+            'Berilgen:Mr(KNO<sub>3</sub>)=39+14+16*3=101gr/mol',
+            '3,01*10<sup>23</sup> dana   kislorod  atomi sani'
+        ],
+        a:'6,02*10<sup>23</sup>*3',
+        b:'101gr',
+        c:'3,01*10<sup>23</sup>',
+        d:'x',
+        x:'77gr'
+    },
+    {
+        id:9,
+        task:'Quraminda 12,04*10<sup>23</sup> dana atom kislorod tutqan kalciy fosfat duziniń muǵdarin tabiń?',
+        desc:[
+            'Berilgen:Mr(Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>)=40*3+2*(31+16*4)=312gr/mol',
+            '12,04*10<sup>23</sup> dana atom sani'
+        ],
+        a:'6,02*10<sup>23</sup>*8',
+        b:'1mol',
+        c:'12,04*10<sup>23</sup>',
+        d:'x',
+        x:'0,25 mol'
+    },
+]
 
- const datas14= [
-     {
-         id:1,
+const datas14= [
+    {
+        id:1,
         task:'Magniy sulfat duzinda (MgSO<sub>4</sub>) kislorod neshe  % ti quraydi?',
         desc:'Berilgen: Mr(MgSO<sub>4</sub>)=24+32+16*4=120gr/mol',
-         a:'120gr',
-         b:'100%',
-         c:'64gr',
-         d:'x',
-         x:'53,33%'
+        a:'120gr',
+        b:'100%',
+        c:'64gr',
+        d:'x',
+        x:'53,33%'
 
-     },
-     {
-         id:2,
-         task:'Kaliy nitrat duzinda (KNO<sub>3</sub>) azot neshe % ti quraydi?',
-         desc:'Berilgen: Mr(KNO<sub>3</sub>)=39+14+16*3=101gr/mol',
-         a:'101gr',
-         b:'100%',
-         c:'14gr',
-         d:'x',
-         x:'13,86%'
+    },
+    {
+        id:2,
+        task:'Kaliy nitrat duzinda (KNO<sub>3</sub>) azot neshe % ti quraydi?',
+        desc:'Berilgen: Mr(KNO<sub>3</sub>)=39+14+16*3=101gr/mol',
+        a:'101gr',
+        b:'100%',
+        c:'14gr',
+        d:'x',
+        x:'13,86%'
 
-     },
-     {
-         id:3,
-         task:'Natriy xlorid duzinda (NaCl) xlor neshe % ti quraydi? ',
-         desc:'Berilgen: Mr(NaCl)=23+35,5=58,5gr/mol',
-         a:'58,5gr',
-         b:'100%',
-         c:'35,5gr',
-         d:'x',
-         x:'60,68%'
+    },
+    {
+        id:3,
+        task:'Natriy xlorid duzinda (NaCl) xlor neshe % ti quraydi? ',
+        desc:'Berilgen: Mr(NaCl)=23+35,5=58,5gr/mol',
+        a:'58,5gr',
+        b:'100%',
+        c:'35,5gr',
+        d:'x',
+        x:'60,68%'
 
-     },
-     {
-         id:4,
-         task:'Natriy fosfatinda (Na<sub>3</sub>PO<sub>4</sub>) natriy neshe % ti quraydi?',
-         desc:'Berilgen:Mr(Na<sub>3</sub>PO<sub>4</sub>)=23*3+31+16*4=164gr/mol',
-         a:'164g',
-         b:'100%',
-         c:'69gr',
-         d:'x',
-         x:'42,1%'
+    },
+    {
+        id:4,
+        task:'Natriy fosfatinda (Na<sub>3</sub>PO<sub>4</sub>) natriy neshe % ti quraydi?',
+        desc:'Berilgen:Mr(Na<sub>3</sub>PO<sub>4</sub>)=23*3+31+16*4=164gr/mol',
+        a:'164g',
+        b:'100%',
+        c:'69gr',
+        d:'x',
+        x:'42,1%'
 
-     },
-     {
-         id:5,
-         task:'Bariy sulfatinda (BaSO<sub>4</sub>) bariy neshe % ti quraydi?',
-         desc:'Berilgen:Mr(BaSO<sub>4</sub>)=137+32+16*4=233gr/mol',
-         a:'233gr',
-         b:'100%',
-         c:'137gr',
-         d:'x',
-         x:'58,8%'
+    },
+    {
+        id:5,
+        task:'Bariy sulfatinda (BaSO<sub>4</sub>) bariy neshe % ti quraydi?',
+        desc:'Berilgen:Mr(BaSO<sub>4</sub>)=137+32+16*4=233gr/mol',
+        a:'233gr',
+        b:'100%',
+        c:'137gr',
+        d:'x',
+        x:'58,8%'
 
-     },
- ]
+    },
+]
 
 
 const datas15 = [
     {
-        id:'1',
+        id:1,
         task:'Belgisiz birikpe quramina K,Mn,O elementleri kiredi. Elementlerdiń massa ulesleri  sáykes túrde K-24,68%, Mn-34,81%, O-40,55% Birikpeniń formulasi qanday?',
         desc:'Berilgen: K-24,68%, Mn-34,81%, O-40,55%',
         solution:['Esaplaw ushin birikpe massasi 100gr dep alinadi:',
@@ -1458,7 +1458,7 @@ const datas15 = [
         x:'Birikpeniń formulasi:KMnO<sub>4</sub>'
     },
     {
-        id:'2',
+        id:2,
         task:'Birikpeniń quraminda Ca-29,41, S-23,52%, O-47% ti quraydi. ' +
             'Usi birikpeniń eń ápiwayi formulasin tabiń?',
         desc:'Berilgen: Ca-29,41, S-23,52%, O-47%',
@@ -1485,7 +1485,7 @@ const datas15 = [
         x:'Birikpeniń formulasi:CaSO<sub>4</sub>'
     },
     {
-        id:'3',
+        id:3,
         task:'Belgisiz birikpeniń quraminda Na-42% , P-19% O-39 % ti quraydi. Birikpeniń formulasin tabiń?',
         desc:'Berilgen: Na-42% , P-19% O-39 %',
         solution:['Esaplaw ushin birikpe massasi 100gr dep alinadi:',
@@ -1535,7 +1535,7 @@ const datas15 = [
         x:'Birikpeniń formulasi:  KCl'
     },*/
     {
-        id:'5',
+        id:5,
         task:'Belgisiz birikpeniń quraminda Mg-20%, S-26,66%, O-53,33 ti quraydi. Birikpeniń formulasin tabiń?',
         desc:'Berilgen: Mg-20%, S-26,66%, O-53,33',
         solution:['Esaplaw ushin birikpe massasi 100gr dep alinadi:',
@@ -1563,78 +1563,78 @@ const datas15 = [
 ]
 
 
- const datas16=[
-     {
-         id:1,
-         task:'Massasi 32 gr mis konc nitrat kislotasi menen reakciyaǵa kiriskende qansha massa duz payda boladi?',
-         desc:['Berilgen: Mr(Cu(NOM<sub>3</sub>)<sub>2</sub>)=64+2*(14+16*3)=156gr/mol',
-             'Ar(Cu)=64gr/mol',
-             'm(Cu)=32 gr'],
-         solution:['Cu+4HNO<sub>3</sub>→Cu(NO<sub>3</sub>)<sub>2</sub>+2NO<sub>2</sub>↑+2H<sub>2</sub>O'],
-         a:'64gr',
-         b:'156gr',
-         c:'32gr',
-         d:'x',
-         x:'78gr'
+const datas16=[
+    {
+        id:1,
+        task:'Massasi 32 gr mis konc nitrat kislotasi menen reakciyaǵa kiriskende qansha massa duz payda boladi?',
+        desc:['Berilgen: Mr(Cu(NOM<sub>3</sub>)<sub>2</sub>)=64+2*(14+16*3)=156gr/mol',
+            'Ar(Cu)=64gr/mol',
+            'm(Cu)=32 gr'],
+        solution:['Cu+4HNO<sub>3</sub>→Cu(NO<sub>3</sub>)<sub>2</sub>+2NO<sub>2</sub>↑+2H<sub>2</sub>O'],
+        a:'64gr',
+        b:'156gr',
+        c:'32gr',
+        d:'x',
+        x:'78gr'
 
-     },
-     {
-         id:2,
-         task:'Massasi 142 gr ammoniy dixromati tarqalǵanda qansha litr azot payda boladi?',
-         desc:['Berilgen: Mr((NH<sub>4</sub>)2Cr<sub>2</sub>O7)=2*(14+1*4)+52*2+16*7=252gr/mol',
-             'm((NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>)=142gr',''],
-         solution:['(NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>→Cr<sub>2</sub>O<sub>3</sub>+N<sub>2</sub>+4H<sub>2</sub>O'],
-         a:'252gr',
-         b:'22,4 l',
-         c:'142gr',
-         d:'x',
-         x:'12,66 l'
+    },
+    {
+        id:2,
+        task:'Massasi 142 gr ammoniy dixromati tarqalǵanda qansha litr azot payda boladi?',
+        desc:['Berilgen: Mr((NH<sub>4</sub>)2Cr<sub>2</sub>O7)=2*(14+1*4)+52*2+16*7=252gr/mol',
+            'm((NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>)=142gr',''],
+        solution:['(NH<sub>4</sub>)<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>→Cr<sub>2</sub>O<sub>3</sub>+N<sub>2</sub>+4H<sub>2</sub>O'],
+        a:'252gr',
+        b:'22,4 l',
+        c:'142gr',
+        d:'x',
+        x:'12,66 l'
 
-     },
-     {
-         id:3,
-         task:'Massasi 120 gr kaliy permanganati xlorid kislota menen tásirleskende qansha gr magniy xloridi payda boladi ?',
-         desc:['Berilgen: Mr(KMnO<sub>4</sub>) =39+55+16*4=158 gr/mol',
-             'Mr(MgCl<sub>2</sub>)=24+35,5*2=95gr',
-             'm(KMnO<sub>4</sub>)=120gr'],
-         solution:['KMnO<sub>4</sub>+HCl→KCl+MnCl<sub>2</sub>+Cl<sub>2</sub>↑+H<sub>2</sub>O'],
-         a:'158gr',
-         b:'95gr',
-         c:'120gr',
-         d:'x',
-         x:'72,15 gr'
+    },
+    {
+        id:3,
+        task:'Massasi 120 gr kaliy permanganati xlorid kislota menen tásirleskende qansha gr magniy xloridi payda boladi ?',
+        desc:['Berilgen: Mr(KMnO<sub>4</sub>) =39+55+16*4=158 gr/mol',
+            'Mr(MgCl<sub>2</sub>)=24+35,5*2=95gr',
+            'm(KMnO<sub>4</sub>)=120gr'],
+        solution:['KMnO<sub>4</sub>+HCl→KCl+MnCl<sub>2</sub>+Cl<sub>2</sub>↑+H<sub>2</sub>O'],
+        a:'158gr',
+        b:'95gr',
+        c:'120gr',
+        d:'x',
+        x:'72,15 gr'
 
-     },
-     {
-         id:4,
-         task:'Massasi 42,5gr natriy nitrati tarqalǵanda qansha gr natriy nitriti payda boladi?',
-         desc:['Berilgen:Mr(NaNO<sub>3</sub>) =23+14+16*3=85gr',
-             'Mr(NaNO<sub>3</sub>) =23+14+16*3=85gr/mol',
-             'Mr(NaNO<sub>2</sub>) =23+14+16*2=69gr/mol',
-                'm(NaNO<sub>3</sub>)=42,5gr'
-         ],
-         solution:['NaNO<sub>3</sub>→NaNO<sub>2</sub>+O<sub>2</sub>↑ '],
-         a:'85gr',
-         b:'69gr',
-         c:'42,5gr',
-         d:'x',
-         x:'34,5gr'
+    },
+    {
+        id:4,
+        task:'Massasi 42,5gr natriy nitrati tarqalǵanda qansha gr natriy nitriti payda boladi?',
+        desc:['Berilgen:Mr(NaNO<sub>3</sub>) =23+14+16*3=85gr',
+            'Mr(NaNO<sub>3</sub>) =23+14+16*3=85gr/mol',
+            'Mr(NaNO<sub>2</sub>) =23+14+16*2=69gr/mol',
+            'm(NaNO<sub>3</sub>)=42,5gr'
+        ],
+        solution:['NaNO<sub>3</sub>→NaNO<sub>2</sub>+O<sub>2</sub>↑ '],
+        a:'85gr',
+        b:'69gr',
+        c:'42,5gr',
+        d:'x',
+        x:'34,5gr'
 
-     },
-     {
-         id:5,
-         task:'Massasi 7,5gr xlorid kislotasi natriy gidroksidi menen reakciyaǵa kiriskende qansha gr duz payda boladi?',
-         desc:['Berilgen: Mr(HCl)=1+35,5=36,5gr/mol',
-             'Mr(NaCl)=23+35,5=58,5gr/mol',
-             'm(HCl)=7,5 gr'],
-         solution:['HCl+NaOH→NaCl+H<sub>2</sub>O'],
-         a:'36,5gr',
-         b:'58,5gr',
-         c:'7,5gr',
-         d:'x',
-         x:'12gr.'
+    },
+    {
+        id:5,
+        task:'Massasi 7,5gr xlorid kislotasi natriy gidroksidi menen reakciyaǵa kiriskende qansha gr duz payda boladi?',
+        desc:['Berilgen: Mr(HCl)=1+35,5=36,5gr/mol',
+            'Mr(NaCl)=23+35,5=58,5gr/mol',
+            'm(HCl)=7,5 gr'],
+        solution:['HCl+NaOH→NaCl+H<sub>2</sub>O'],
+        a:'36,5gr',
+        b:'58,5gr',
+        c:'7,5gr',
+        d:'x',
+        x:'12gr.'
 
-     },
- ]
+    },
+]
 
 export {datas1,datas2,datas3,datas4,datas5,datas6,datas7,datas8,datas9,datas10,datas11,datas15,datas12,datas13,datas14,datas16};
