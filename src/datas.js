@@ -2,7 +2,7 @@
     {
         id: 1,
         task: `25 gr natriy oksidiniń  (Na<sub>2</sub>O)  muǵdarin tabiń?`,
-        desc: `Berilgen: Mr(Na<sub>2O</sub>) =2*23+16=62gr/mol`,
+        desc: `Berilgen: Mr(Na<sub>2</sub>O) =2*23+16=62gr/mol`,
         desc2: 'm(Na<sub>2</sub>O) =25gr',
         a: `1mol`,
         b: `62gr`,
