@@ -14,7 +14,7 @@ import fon from './fon.jpg'
 export const Layout = () => {
     return (
         <div className="w-full h-[100vh] flex flex-col justify-center items-center" style={{ backgroundImage:`url(${fon})`, backgroundSize:'cover'}}>
-            <h1 className="mb-[100px] text-3xl">«Xımıya: mektep oqiwshilari ushin(Organıkaliq emes zatlardiń tıykarǵi klass bırıkpelerıne tıyıslı máselelerdı  proporcıya usuli járdemınde sheshıwdı úyretıwde  ınteraktıv usuldan paydalaniw) ózın-ózı oqitiw» elektron oqiwliq qollanba(EOQ),(qaraqalpaq tılınde).</h1>
+            <h1 className="w-[80%]  mb-[100px] text-3xl">«Xımıya: mektep oqiwshilari ushin(Organıkaliq emes zatlardiń tıykarǵi klass bırıkpelerıne tıyıslı máselelerdı  proporcıya usuli járdemınde sheshıwdı úyretıwde  ınteraktıv usuldan paydalaniw) ózın-ózı oqitiw» elektron oqiwliq qollanba(EOQ),(qaraqalpaq tılınde).</h1>
             <div className="flex flex-col">
 
             <div className="flex flex-row mb-[30px]">
@@ -43,7 +43,7 @@ export const Layout = () => {
                 </Link>
             </div>
             </div>
-    <div className="flex flex-row">   <h1 className="mb-[100px] text-2xl">Avtorlar: Ajınıyazova Sholpan Saparnıyazovna, Utenıyazov KarımbayKuanishbaevıch</h1></div>
+    <div className="flex flex-row">   <h1 className="mt-[100px] text-2xl">Avtorlar: Ajınıyazova Sholpan Saparnıyazovna, Utenıyazov KarımbayKuanishbaevıch</h1></div>
         </div>
 
     );
