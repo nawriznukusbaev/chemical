@@ -14,7 +14,7 @@ import fon from './fon.jpg'
 export const Layout = () => {
     return (
         <div className="w-full h-[100vh] flex flex-col justify-center items-center" style={{ backgroundImage:`url(${fon})`, backgroundSize:'cover'}}>
-            <h1 className="mb-[100px] text-3xl">Mektep oqıwshılarına ximiya pánin interaktiv usılda uyretiw</h1>
+            <h1 className="mb-[100px] text-3xl">«Xımıya: mektep oqiwshilari ushin(Organıkaliq emes zatlardiń tıykarǵi klass bırıkpelerıne tıyıslı máselelerdı  proporcıya usuli járdemınde sheshıwdı úyretıwde  ınteraktıv usuldan paydalaniw) ózın-ózı oqitiw» elektron oqiwliq qollanba(EOQ),(qaraqalpaq tılınde).</h1>
             <div className="flex flex-col">
 
             <div className="flex flex-row mb-[30px]">
@@ -26,7 +26,7 @@ export const Layout = () => {
                 <Link to={'/tasks2'}>
                 <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] m-[20px] flex flex-col justify-center items-center">
                     <p className="text-center text-lg">Ximiyaliq formula boyinsha esaplawlar</p>
-                    <p className="text-center text-lg">Massa úlesti tabiw</p>
+                  
                 </div>
                 </Link>
             </div>
@@ -43,6 +43,7 @@ export const Layout = () => {
                 </Link>
             </div>
             </div>
+    <div className="flex flex-row">   <h1 className="mb-[100px] text-2xl">Avtorlar: Ajınıyazova Sholpan Saparnıyazovna, Utenıyazov KarımbayKuanishbaevıch</h1></div>
         </div>
 
     );
