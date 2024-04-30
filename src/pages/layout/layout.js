@@ -20,7 +20,7 @@ export const Layout = () => {
             <div className="flex flex-row mb-[30px]">
                 <Link to={'/tasks1'}>
                     <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] m-[20px] flex justify-center items-center">
-                    <p className="text-center text-lg">Mol, birikpeniń quramindaǵi atom,  molekula sanin tabiw boyinsha esaplawlar</p>
+                    <p className="text-center text-lg">Birikpe quramindaǵi atom, molekula sanın, moldi tabiw boyinsha máselele</p>
                     </div>
                 </Link>
                 <Link to={'/tasks2'}>
