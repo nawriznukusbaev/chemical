@@ -9,7 +9,7 @@ export const TaskListOne = ()=>{
         <div className="w-full h-[100vh] flex flex-col justify-center items-center" style={{ backgroundImage:`url(${fon})`, backgroundSize:'cover'}}>
             <div className="container-xl w-[100%] flex flex-row"> <button onClick={goBack} className="py-[10px] px-[25px]  m-[15px] bg-sky-300">Назад</button></div>
             <p className="text-center text-2xl"> Birikpe quramindaǵi atom, molekula sanın, moldi tabiw boyinsha máseleler</p>
-     <div className="rounded-lg shadow-inner bg-slate-50 w-[600px] h-[200px] p-[20px]  flex flex-col  justify-center items-center mb-[10px]">
+     <div className="rounded-lg shadow-inner bg-slate-50 w-[600px] h-[300px] p-[20px]  flex flex-col  justify-center items-center mb-[10px]">
     1. Máseleт tekstin diqqat penen oqiń hám oniń mánisin túsiniwge háreket etiń,
 2. Másele shártin jaziń, 
 3. Berilgen birikpeniń molekulyar massasin esaplań,
