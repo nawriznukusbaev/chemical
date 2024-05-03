@@ -17,6 +17,7 @@ export const TaskListFour = ()=>{
 <p>5.Berilgen mánisi hám zatlar molekulyar massasi, moli, kólemi tiykarinda  proporciya dúziń    </p>
 <p>6. Proportsiyani sheshiń</p>
     <p>7. Máseleniń sheshimi  </p>
+    </div>
             <div className="flex flex-col">
                 <div className="flex flex-row mb-[30px]">
                     <Link to={'/tasks4/category1'}>
