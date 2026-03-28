@@ -43,7 +43,7 @@ export const Layout = () => {
                 </Link>
             </div>
             </div>
-    <div className="flex flex-row">   <h1 className="mt-[100px] text-2xl">Avtorlar: Ajınıyazova Sholpan Saparnıyazovna, Utenıyazov KarımbayKuanishbaevıch</h1></div>
+    <div className="flex flex-row">   <h1 className="mt-[100px] text-2xl">Avtorlar: Ajınıyazova Sholpan Saparnıyazovna</h1></div>
         </div>
 
     );
