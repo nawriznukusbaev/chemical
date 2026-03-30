@@ -37,14 +37,6 @@ export const TaskFourTaskTwo = () => {
     const [isVisible22, setVisible22] = useState(false);
     const [isVisible23, setVisible23] = useState(false);
     const [isVisible24, setVisible24] = useState(false);
-    const [isVisible26, setVisible26] = useState(false);
-    const [isVisible25, setVisible25] = useState(false);
-    const [isVisible27, setVisible27] = useState(false);
-    const [isVisible28, setVisible28] = useState(false);
-    const [isVisible29, setVisible29] = useState(false);
-    const [isVisible30, setVisible30] = useState(false);
-    const [isVisible31, setVisible31] = useState(false);
-    const [isVisible32, setVisible32] = useState(false);
 
     const handleVisibality = () => {
         setVisible(true)
