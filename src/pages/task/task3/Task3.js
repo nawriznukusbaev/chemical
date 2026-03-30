@@ -15,8 +15,6 @@ export const TaskThreeTaskThree = () => {
     console.log(data);
 
 
-    const parse = require('html-react-parser');
-    let i = 0;
 
     const [isVisible, setVisible] = useState(false);
     const [isVisible2, setVisible2] = useState(false);
