@@ -16,8 +16,6 @@ export const TaskThreeTaskFour = () => {
 
     const navigate=useNavigate();
     const goBack=()=>navigate(-1);
-    const parse = require('html-react-parser');
-    let i = 0;
 
     const [isVisible, setVisible] = useState(false);
     const [isVisible2, setVisible2] = useState(false);
