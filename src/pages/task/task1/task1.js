@@ -7,10 +7,11 @@ import { datas1 } from "../../../datas";
 
 export const TaskOneTask = () => {
     const { data_id } = useParams();
-    let data = [...datas1].find((item) => item.id === +data_id);
 
     const navigate = useNavigate();
     const goBack = () => navigate(-1);
+
+    let data = [...datas1].find((item) => item.id === +data_id);
 
     // ---------------- STATES ----------------
     const [isVisible, setVisible] = useState(false);
@@ -29,11 +30,10 @@ export const TaskOneTask = () => {
     const [isVisible12, setVisible12] = useState(false);
     const [isVisible13, setVisible13] = useState(false);
 
-    // ---------------- PROTECTION ----------------
-    if (!data) return <div>Loading...</div>;
-
-    // ---------------- EFFECT ----------------
+    // ---------------- EFFECT (ВСЕГДА НА ВЕРХНЕМ УРОВНЕ) ----------------
     useEffect(() => {
+        if (!data) return;
+
         let timers = [];
 
         if (data.id === 6 || data.id === 7 || data.id === 9) {
@@ -49,7 +49,8 @@ export const TaskOneTask = () => {
                 setTimeout(() => setVisible10(true), 24000),
                 setTimeout(() => setVisible9(true), 78000),
             ];
-        } else if (data.id === 16 || data.id === 17) {
+        } 
+        else if (data.id === 16 || data.id === 17) {
             timers = [
                 setTimeout(() => setVisible(true), 0),
                 setTimeout(() => setVisible2(true), 3000),
@@ -65,7 +66,8 @@ export const TaskOneTask = () => {
                 setTimeout(() => setVisible13(true), 21000),
                 setTimeout(() => setVisible9(true), 78000),
             ];
-        } else {
+        } 
+        else {
             timers = [
                 setTimeout(() => setVisible2(true), 0),
                 setTimeout(() => setVisible3(true), 3000),
@@ -80,18 +82,23 @@ export const TaskOneTask = () => {
         }
 
         return () => timers.forEach(clearTimeout);
-    }, [data.id]);
+    }, [data?.id]);
+
+    // ---------------- SAFETY ----------------
+    if (!data) return <div>Loading...</div>;
 
     // ---------------- JSX ----------------
     return (
         <div className="container-xl bg-slate-100 flex flex-col w-[100%] h-[100vh] justify-center items-center">
+
             <div className="container-xl w-[100%] flex flex-row">
-                <button onClick={goBack} className="py-[10px] px-[15] m-[15px] bg-sky-300">
+                <button onClick={goBack} className="py-[10px] px-[15px] m-[15px] bg-sky-300">
                     Назад
                 </button>
             </div>
 
             <div className="flex flex-col items-center ">
+
                 <p className="italic text-purple-800 text-2xl mb-[100px]">
                     {parse(`${data.task}`)}
                 </p>
@@ -111,16 +118,18 @@ export const TaskOneTask = () => {
                     {/* RIGHT */}
                     <div className="flex flex-col w-[590px] justify-center items-center rounded-lg bg-slate-200">
 
-                        {/* Верх */}
                         <AnimatePresence>
                             {isVisible && (
-                                <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-2xl">
+                                <motion.p
+                                    initial={{ opacity: 0 }}
+                                    animate={{ opacity: 1 }}
+                                    className="text-2xl"
+                                >
                                     {parse(`${data.e}`)}
                                 </motion.p>
                             )}
                         </AnimatePresence>
 
-                        {/* Центр */}
                         <div className="flex flex-row">
 
                             <div>
@@ -140,13 +149,12 @@ export const TaskOneTask = () => {
 
                         </div>
 
-                        {/* X */}
                         {isVisible10 && <p className="font-bold text-2xl">X=?</p>}
                     </div>
                 </div>
 
-                {/* ANSWER */}
                 <div className="h-[150px] w-[1200px] flex justify-center items-center bg-slate-200">
+
                     {isVisible8 === 1 && isVisible9 && (
                         <motion.p
                             initial={{ opacity: 0 }}
@@ -156,6 +164,7 @@ export const TaskOneTask = () => {
                             <span className="text-purple-800">Juwap:</span> {parse(`${data.x}`)}
                         </motion.p>
                     )}
+
                 </div>
             </div>
         </div>
