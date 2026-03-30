@@ -14,8 +14,6 @@ export const TasFourTaskOne = () => {
     const navigate=useNavigate();
     const goBack=()=>navigate(-1);
 
-    const parse = require('html-react-parser');
-    let i = 0;
 
     const [isVisible, setVisible] = useState(false);
     const [isVisible2, setVisible2] = useState(false);
@@ -28,9 +26,6 @@ export const TasFourTaskOne = () => {
     const [isVisible8, setVisible8] = useState(0);
     const [isVisible9, setVisible9] = useState(false);
     const [isVisible10, setVisible10] = useState(false);
-    const [isVisible11, setVisible11] = useState(false);
-    const [isVisible12, setVisible12] = useState(false);
-    const [isVisible13, setVisible13] = useState(false);
 
 
     if(data.id!==3){
