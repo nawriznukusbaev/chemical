@@ -7,7 +7,6 @@ import { datas1 } from "../../../datas";
 
 export const TaskOneTask = () => {
     const { data_id } = useParams();
-
     let data = [...datas1].find((item) => item.id === +data_id);
 
     const navigate = useNavigate();
@@ -27,8 +26,8 @@ export const TaskOneTask = () => {
     const [isVisible10, setVisible10] = useState(false);
     const [isVisible11, setVisible11] = useState(false);
 
-    const [isVisible12, setVisible12] = useState(false); // ✅ FIX
-    const [isVisible13, setVisible13] = useState(false); // ✅ FIX
+    const [isVisible12, setVisible12] = useState(false);
+    const [isVisible13, setVisible13] = useState(false);
 
     // ---------------- PROTECTION ----------------
     if (!data) return <div>Loading...</div>;
@@ -83,14 +82,82 @@ export const TaskOneTask = () => {
         return () => timers.forEach(clearTimeout);
     }, [data.id]);
 
-    // ---------------- JSX (оставил как у тебя) ----------------
+    // ---------------- JSX ----------------
     return (
         <div className="container-xl bg-slate-100 flex flex-col w-[100%] h-[100vh] justify-center items-center">
-            <button onClick={goBack}>Назад</button>
+            <div className="container-xl w-[100%] flex flex-row">
+                <button onClick={goBack} className="py-[10px] px-[15] m-[15px] bg-sky-300">
+                    Назад
+                </button>
+            </div>
 
-            <p>{parse(`${data.task}`)}</p>
+            <div className="flex flex-col items-center ">
+                <p className="italic text-purple-800 text-2xl mb-[100px]">
+                    {parse(`${data.task}`)}
+                </p>
 
-            {/* Тут оставь свой JSX как есть */}
+                <div className="flex flex-row w-[1200px] justify-between mb-[50px]">
+
+                    {/* LEFT */}
+                    <div className="flex flex-col w-[590px] justify-center items-center rounded-lg bg-slate-200">
+                        <p className="italic text-rose-600 text-2xl mb-[50px]">
+                            {parse(`${data.desc}`)}
+                        </p>
+                        <p className="italic text-rose-600 text-2xl">
+                            {parse(`${data.desc2}`)}
+                        </p>
+                    </div>
+
+                    {/* RIGHT */}
+                    <div className="flex flex-col w-[590px] justify-center items-center rounded-lg bg-slate-200">
+
+                        {/* Верх */}
+                        <AnimatePresence>
+                            {isVisible && (
+                                <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-2xl">
+                                    {parse(`${data.e}`)}
+                                </motion.p>
+                            )}
+                        </AnimatePresence>
+
+                        {/* Центр */}
+                        <div className="flex flex-row">
+
+                            <div>
+                                {isVisible2 && <p>{parse(`${data.a}`)}</p>}
+                                {isVisible5 && <p>{parse(`${data.c}`)}</p>}
+                            </div>
+
+                            <div>
+                                {isVisible3 && <div className="h-[5px] w-[200px] bg-black"></div>}
+                                {isVisible6 && <div className="h-[5px] w-[200px] bg-black"></div>}
+                            </div>
+
+                            <div>
+                                {isVisible4 && <p>{parse(`${data.b}`)}</p>}
+                                {isVisible7 && <p>{parse(`${data.d}`)}</p>}
+                            </div>
+
+                        </div>
+
+                        {/* X */}
+                        {isVisible10 && <p className="font-bold text-2xl">X=?</p>}
+                    </div>
+                </div>
+
+                {/* ANSWER */}
+                <div className="h-[150px] w-[1200px] flex justify-center items-center bg-slate-200">
+                    {isVisible8 === 1 && isVisible9 && (
+                        <motion.p
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            className="text-5xl font-bold text-rose-500"
+                        >
+                            <span className="text-purple-800">Juwap:</span> {parse(`${data.x}`)}
+                        </motion.p>
+                    )}
+                </div>
+            </div>
         </div>
     );
 };
