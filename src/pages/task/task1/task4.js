@@ -13,8 +13,6 @@ export const TaskOneTaskFour = () => {
     console.log(data);
 
 
-    const parse = require('html-react-parser');
-    let i = 0;
 
     const [isVisible, setVisible] = useState(false);
     const [isVisible2, setVisible2] = useState(false);
@@ -28,8 +26,6 @@ export const TaskOneTaskFour = () => {
     const [isVisible9, setVisible9] = useState(false);
     const [isVisible10, setVisible10] = useState(false);
     const [isVisible11, setVisible11] = useState(false);
-    const [isVisible12, setVisible12] = useState(false);
-    const [isVisible13, setVisible13] = useState(false);
 
 
 
