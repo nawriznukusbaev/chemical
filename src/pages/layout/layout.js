@@ -43,11 +43,9 @@ export const Layout = () => {
                 </Link>
             </div>
             </div>
-<<<<<<< HEAD
-  
-=======
-    <div className="flex flex-row">   <h1 className="mt-[100px] text-2xl">Avtor: Ajınıyazova Sholpan Saparnıyazovna</h1></div>
->>>>>>> 11eb397 (Avtor, Fixed errors and restored project to stable version (2024-05-03))
+            <div className="flex flex-row">
+                <h1 className="mt-[100px] text-2xl">Avtor: Ajınıyazova Sholpan Saparnıyazovna</h1>
+            </div>
         </div>
 
     );
