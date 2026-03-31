@@ -41,7 +41,12 @@
     "eject": "react-scripts eject"
   },
   "engines": {
+<<<<<<< HEAD
     "node": "20.x"
+=======
+    "node": "24.x",
+    "npm": ">=11"
+>>>>>>> 11eb397 (Avtor, Fixed errors and restored project to stable version (2024-05-03))
   },
   "eslintConfig": {
     "extends": [
