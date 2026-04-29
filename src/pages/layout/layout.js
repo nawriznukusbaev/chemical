@@ -1,0 +1,41 @@
+import {Link} from "react-router-dom";
+import fon from './fon.jpg'
+
+
+export const Layout = () => {
+    return (
+        <div className="w-full h-[100vh] flex flex-col justify-center items-center" style={{ backgroundImage:`url(${fon})`, backgroundSize:'cover'}}>
+            <h1 className="w-[75%]  text-center mb-[100px] text-3xl">«Xımıya: mektep oqiwshilari ushin(Organıkaliq emes zatlardiń tıykarǵi klass bırıkpelerıne tıyıslı máselelerdı  proporcıya usuli járdemınde sheshıwdı úyretıwde  ınteraktıv usuldan paydalaniw) ózın-ózı oqitiw» elektron oqiwliq qollanba(EOQ),(qaraqalpaq tılınde).</h1>
+            <div className="flex flex-col">
+
+            <div className="flex flex-row mb-[30px]">
+                <Link to={'/tasks1'}>
+                    <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] m-[20px] flex justify-center items-center">
+                    <p className="text-center text-lg">Birikpe quramindaǵi atom, molekula sanın, moldi tabiw boyinsha máselele</p>
+                    </div>
+                </Link>
+                <Link to={'/tasks2'}>
+                <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] m-[20px] flex flex-col justify-center items-center">
+                    <p className="text-center text-lg">Ximiyaliq formula boyinsha esaplawlar</p>
+                  
+                </div>
+                </Link>
+            </div>
+            <div className="flex flex-row">
+                <Link to={'/tasks3'}>
+                <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] mx-[20px] flex justify-center items-center">
+                    <p className="text-center text-lg">Birikpeniń formulasin keltirip shiǵariw</p>
+                </div>
+                </Link>
+                <Link to={'/tasks4'}>
+                <div className="rounded-lg shadow-inner bg-slate-50 w-[275px] h-[200px] p-[20px] mx-[20px] flex justify-center items-center">
+                    <p className="text-center text-lg">Ximiyaliq teńlemeler boyinsha esaplawlar</p>
+                </div>
+                </Link>
+            </div>
+            </div>
+    <div className="flex flex-row">   <h1 className="mt-[100px] text-2xl">Avtorlar: Ajınıyazova Sholpan Saparnıyazovna</h1></div>
+        </div>
+
+    );
+}
